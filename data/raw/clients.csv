@@ -1,0 +1,41 @@
+client_id,name,industry,region,plan,go_live_date,seats
+C001,"Choudhury, Bakshi and Maharaj",Banking,UK,Pro,2025-03-04,977
+C002,Kapoor and Sons,Retail,US,Enterprise,2024-11-18,478
+C003,"Chaudry, Chahal and Sami",Insurance,SG,Pro,2024-11-09,834
+C004,Balan Inc,Banking,UK,Pro,2025-01-09,346
+C005,Kaul PLC,Telecom,India,Enterprise,2024-11-22,481
+C006,"Bala, Issac and Saini",Insurance,SG,Enterprise,2024-12-07,516
+C007,Sen PLC,Media,UK,Pro,2025-03-04,251
+C008,Ahuja-Dutta,Retail,UK,Basic,2025-03-06,747
+C009,"Sami, Oak and Mall",Banking,India,Pro,2025-05-23,434
+C010,Kale LLC,Manufacturing,US,Basic,2025-04-15,545
+C011,Chanda Group,Consulting,India,Basic,2025-01-26,847
+C012,Parmer LLC,Pharma,SG,Basic,2025-05-18,845
+C013,"Lalla, Bassi and Sharaf",Manufacturing,US,Enterprise,2025-02-09,908
+C014,"Dash, Radhakrishnan and Brar",Media,UK,Pro,2025-01-10,570
+C015,"Memon, Pathak and Handa",Insurance,US,Pro,2025-02-02,394
+C016,"Boase, Bath and Kari",Pharma,India,Enterprise,2025-04-25,633
+C017,Buch-Kaul,Manufacturing,US,Pro,2024-11-30,188
+C018,Rai LLC,Consulting,India,Pro,2024-11-24,229
+C019,Patla-Gaba,Banking,UK,Basic,2025-02-06,250
+C020,Pant-Kadakia,Telecom,US,Basic,2025-02-13,322
+C021,"Loke, Bora and Garg",Consulting,UK,Pro,2024-11-23,889
+C022,"Konda, Gade and Shere",Media,India,Pro,2024-12-19,283
+C023,Madan-Kanda,Banking,SG,Pro,2025-02-26,450
+C024,"Nair, Bhalla and Karnik",Consulting,SG,Enterprise,2025-04-25,1657
+C025,Mutti Group,Media,UK,Pro,2025-01-07,528
+C026,Bhatti-Kakar,Retail,India,Pro,2025-01-01,1021
+C027,"Murty, Kala and Tata",Media,US,Pro,2024-12-25,350
+C028,Shanker-Dhar,Banking,India,Pro,2024-12-05,463
+C029,Dewan-Koshy,Consulting,India,Basic,2025-02-01,351
+C030,"Yohannan, Lall and Sangha",Banking,UK,Pro,2025-01-04,509
+C031,"Rastogi, Pathak and Kanda",Insurance,UK,Basic,2025-05-08,1205
+C032,Upadhyay Group,Banking,SG,Pro,2025-02-18,171
+C033,Batta Inc,IT Services,India,Enterprise,2025-04-13,858
+C034,Dutta Ltd,Pharma,India,Basic,2025-01-19,640
+C035,Bhatt-Rajan,Telecom,US,Basic,2025-04-08,375
+C036,Sidhu-Wadhwa,IT Services,India,Basic,2025-05-18,204
+C037,Apte-Contractor,IT Services,India,Basic,2024-11-27,693
+C038,"Yadav, Loke and Oak",Media,US,Pro,2024-12-03,383
+C039,Memon Group,Pharma,India,Pro,2025-03-08,783
+C040,Setty Inc,IT Services,UK,Enterprise,2024-12-12,585

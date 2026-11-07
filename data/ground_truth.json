@@ -1,0 +1,141 @@
+{
+  "seed": 42,
+  "window": [
+    "2025-01-01",
+    "2025-12-31"
+  ],
+  "gaps": [
+    {
+      "client_id": "C005",
+      "client_name": "Kaul PLC",
+      "gap_type": "room_not_synced",
+      "description": "Meeting rooms not synced to calendar; low room bookings and high no-shows",
+      "employees_affected": 409
+    },
+    {
+      "client_id": "C006",
+      "client_name": "Bala, Issac and Saini",
+      "gap_type": "parking_zero_spots",
+      "description": "Parking enabled but zero parking spots configured",
+      "employees_affected": 404
+    },
+    {
+      "client_id": "C007",
+      "client_name": "Sen PLC",
+      "gap_type": "strict_policy",
+      "description": "Attendance policy caps bookings at 1 day/week; many views, few bookings",
+      "employees_affected": 228
+    },
+    {
+      "client_id": "C009",
+      "client_name": "Sami, Oak and Mall",
+      "gap_type": "strict_policy",
+      "description": "Attendance policy caps bookings at 1 day/week; many views, few bookings",
+      "employees_affected": 380
+    },
+    {
+      "client_id": "C011",
+      "client_name": "Chanda Group",
+      "gap_type": "silent_churn",
+      "description": "Healthy usage that drops >50% in the last 3 months with rising tickets",
+      "employees_affected": 739
+    },
+    {
+      "client_id": "C019",
+      "client_name": "Patla-Gaba",
+      "gap_type": "qr_no_scanners",
+      "description": "QR Check-in enabled but offices have no QR scanners; check-ins collapse after month 1",
+      "employees_affected": 209
+    },
+    {
+      "client_id": "C020",
+      "client_name": "Pant-Kadakia",
+      "gap_type": "qr_no_scanners",
+      "description": "QR Check-in enabled but offices have no QR scanners; check-ins collapse after month 1",
+      "employees_affected": 262
+    },
+    {
+      "client_id": "C030",
+      "client_name": "Yohannan, Lall and Sangha",
+      "gap_type": "silent_churn",
+      "description": "Healthy usage that drops >50% in the last 3 months with rising tickets",
+      "employees_affected": 416
+    },
+    {
+      "client_id": "C031",
+      "client_name": "Rastogi, Pathak and Kanda",
+      "gap_type": "bad_rollout",
+      "description": "Desk Booking enabled in only 1 office of a multi-office client",
+      "employees_affected": 444
+    },
+    {
+      "client_id": "C038",
+      "client_name": "Yadav, Loke and Oak",
+      "gap_type": "room_not_synced",
+      "description": "Meeting rooms not synced to calendar; low room bookings and high no-shows",
+      "employees_affected": 364
+    }
+  ],
+  "decoys_not_gaps": [
+    {
+      "client_id": "C001",
+      "client_name": "Choudhury, Bakshi and Maharaj",
+      "decoy_type": "partial_scanners",
+      "note": "Look-alike setup that is NOT a planted gap"
+    },
+    {
+      "client_id": "C003",
+      "client_name": "Chaudry, Chahal and Sami",
+      "decoy_type": "parking_one_office_zero",
+      "note": "Look-alike setup that is NOT a planted gap"
+    },
+    {
+      "client_id": "C010",
+      "client_name": "Kale LLC",
+      "decoy_type": "mild_decline",
+      "note": "Look-alike setup that is NOT a planted gap"
+    },
+    {
+      "client_id": "C014",
+      "client_name": "Dash, Radhakrishnan and Brar",
+      "decoy_type": "low_engagement",
+      "note": "Look-alike setup that is NOT a planted gap"
+    },
+    {
+      "client_id": "C021",
+      "client_name": "Loke, Bora and Garg",
+      "decoy_type": "low_engagement",
+      "note": "Look-alike setup that is NOT a planted gap"
+    },
+    {
+      "client_id": "C024",
+      "client_name": "Nair, Bhalla and Karnik",
+      "decoy_type": "phased_rollout",
+      "note": "Look-alike setup that is NOT a planted gap"
+    },
+    {
+      "client_id": "C026",
+      "client_name": "Bhatti-Kakar",
+      "decoy_type": "one_room_unsynced",
+      "note": "Look-alike setup that is NOT a planted gap"
+    },
+    {
+      "client_id": "C029",
+      "client_name": "Dewan-Koshy",
+      "decoy_type": "low_engagement",
+      "note": "Look-alike setup that is NOT a planted gap"
+    },
+    {
+      "client_id": "C036",
+      "client_name": "Sidhu-Wadhwa",
+      "decoy_type": "low_engagement",
+      "note": "Look-alike setup that is NOT a planted gap"
+    },
+    {
+      "client_id": "C040",
+      "client_name": "Setty Inc",
+      "decoy_type": "mild_policy_cap",
+      "note": "Look-alike setup that is NOT a planted gap"
+    }
+  ]
+}
