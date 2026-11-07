@@ -93,3 +93,8 @@ Log of choices made where SPEC.md was ambiguous.
 - Every number in the README was copied from `outputs/*.csv` or the script output after a full from-scratch re-run (generate, load, queries, detector, export). A re-run reproduced all tracked files exactly; only the .xlsx binary changed (internal timestamp).
 - Python 3.10 was used (the spec said 3.11); nothing relies on 3.11-only features.
 - The README states the limits of the 100% precision/recall result instead of presenting it as proof.
+
+## Fix after P10: Streamlit version compatibility
+- A user on an older Streamlit got `'str' object cannot be interpreted as an integer` on every page. Cause: I had replaced `use_container_width=True` with `width="stretch"`, which only Streamlit 1.49+ accepts. Older versions expect an integer width, and `plotly_chart` passes unknown kwargs on to Plotly.
+- `dashboard/app.py` now uses `show_chart()` and `show_table()` helpers that pick `width="stretch"` (1.49+) or `use_container_width=True` (older) by version.
+- Reproduced and verified by running the app test harness on Streamlit 1.40.0 (old code: error on all three pages; fixed code: no errors) and on 1.65.0 (no errors).

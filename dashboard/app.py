@@ -13,6 +13,7 @@ Three pages:
 
 SYNTHETIC data with planted gaps. See README.md.
 """
+import re
 from pathlib import Path
 
 import pandas as pd
@@ -37,6 +38,30 @@ GAP_NAMES = {
     "parking_zero_spots": "Parking enabled, zero spots",
     "silent_churn": "Silent churn",
 }
+
+
+# --------------------------------------------------------------------------
+# Streamlit-version compatibility
+# --------------------------------------------------------------------------
+# Newer Streamlit (1.49+) wants width="stretch"; older versions want use_container_width=True
+# and reject the string ("str object cannot be interpreted as an integer"). Pick by version.
+def _streamlit_has_stretch_width():
+    parts = [int(x) for x in re.findall(r"\d+", st.__version__)[:2]]
+    return parts >= [1, 49]
+
+
+def show_chart(fig):
+    if _streamlit_has_stretch_width():
+        st.plotly_chart(fig, width="stretch")
+    else:
+        st.plotly_chart(fig, use_container_width=True)
+
+
+def show_table(df, **kwargs):
+    if _streamlit_has_stretch_width():
+        st.dataframe(df, width="stretch", **kwargs)
+    else:
+        st.dataframe(df, use_container_width=True, **kwargs)
 
 
 # --------------------------------------------------------------------------
@@ -83,7 +108,7 @@ def page_overview(t):
                      text="clients", hover_data={"employees": True}, labels={"health_band": "", "clients": "Clients"})
         fig.update_traces(textposition="outside")
         fig.update_layout(showlegend=False, yaxis_title="Clients")
-        st.plotly_chart(style(fig), width="stretch")
+        show_chart(style(fig))
     with right:
         st.subheader("Top features: reach and depth")
         adoption = t["fact_feature_adoption"]
@@ -96,7 +121,7 @@ def page_overview(t):
                      hover_data={"clients_enabled": True},
                      labels={"avg_adoption": "Avg adoption where enabled (% of employees)", "feature": ""})
         fig.update_traces(marker_color=BLUE, textposition="outside")
-        st.plotly_chart(style(fig), width="stretch")
+        show_chart(style(fig))
 
     st.subheader("Monthly active employees by feature")
     stick = t["fact_feature_stickiness_monthly"].copy()
@@ -104,7 +129,7 @@ def page_overview(t):
     fig = px.line(stick, x="month", y="mau", color="feature", markers=True,
                   category_orders={"feature": FEATURE_ORDER},
                   labels={"mau": "Monthly active employees", "month": "", "feature": "Feature"})
-    st.plotly_chart(style(fig, 420), width="stretch")
+    show_chart(style(fig, 420))
     st.caption("Usage ramps up as clients go live through the first half of the year. "
                "October dips (Diwali, India) and late-December dips (Christmas) are built into the data.")
 
@@ -113,7 +138,7 @@ def page_overview(t):
                                             employees_affected=("employees_affected", "sum")).reset_index())
     by_type["gap"] = by_type["gap_type"].map(GAP_NAMES)
     by_type = by_type.sort_values("employees_affected", ascending=False)
-    st.dataframe(by_type[["gap", "clients", "employees_affected"]], hide_index=True, width="stretch")
+    show_table(by_type[["gap", "clients", "employees_affected"]], hide_index=True)
 
 
 # --------------------------------------------------------------------------
@@ -150,7 +175,7 @@ def page_heatmap(t):
         colorbar=dict(title="rank" if scale_mode.startswith("Relative") else "%")))
     fig.update_yaxes(autorange="reversed")
     fig.update_xaxes(side="top")
-    st.plotly_chart(style(fig, max(420, 24 * len(labels) + 120)), width="stretch")
+    show_chart(style(fig, max(420, 24 * len(labels) + 120)))
     st.caption("Cell = % of the client's employees with a booking or check-in in the last 90 days. "
                "Blank = feature not enabled. Rows sorted by health score, lowest first.")
 
@@ -165,13 +190,13 @@ def page_heatmap(t):
     values = [funnel["eligible_employees"].sum(), funnel["employees_ever_used"].sum(),
               funnel["employees_habitual"].sum()]
     fig = go.Figure(go.Funnel(y=stages, x=values, textinfo="value+percent initial", marker=dict(color=BLUE)))
-    st.plotly_chart(style(fig, 320), width="stretch")
+    show_chart(style(fig, 320))
     st.caption(f"{len(funnel)} clients have {feature} enabled in this selection. "
                "'Used' means a booking or check-in, not just a view.")
     shown = funnel.merge(clients[["client_id", "client_name"]], on="client_id")
     shown = shown[["client_id", "client_name", "eligible_employees", "pct_ever_used", "pct_habitual",
                    "days_enable_to_first_use"]].sort_values("pct_habitual")
-    st.dataframe(shown, hide_index=True, width="stretch")
+    show_table(shown, hide_index=True)
 
 
 # --------------------------------------------------------------------------
@@ -204,7 +229,7 @@ def page_client(t):
         fig.update_traces(marker_color=BLUE, texttemplate="%{x:.0f}", textposition="outside")
         fig.update_layout(yaxis_title="", xaxis_title="")
         fig.update_yaxes(autorange="reversed")
-        st.plotly_chart(style(fig, 280), width="stretch")
+        show_chart(style(fig, 280))
     with right:
         st.subheader("Gaps and suggested fixes")
         gaps = t["fact_gaps"]
@@ -226,7 +251,7 @@ def page_client(t):
     monthly["month"] = pd.to_datetime(monthly["month"])
     fig = px.line(monthly, x="month", y=metric, color="feature", markers=True,
                   category_orders={"feature": FEATURE_ORDER}, labels={metric: metric_label, "month": "", "feature": "Feature"})
-    st.plotly_chart(style(fig, 380), width="stretch")
+    show_chart(style(fig, 380))
 
     left, right = st.columns(2)
     with left:
@@ -234,7 +259,7 @@ def page_client(t):
         why = t["fact_why_not"]
         why = why[why["client_id"] == cid][["feature", "adoption_pct_of_employees", "coverage_pct",
                                             "view_without_book_pct", "cancel_pct", "no_show_pct", "tickets_total"]]
-        st.dataframe(why, hide_index=True, width="stretch")
+        show_table(why, hide_index=True)
         st.caption("view_without_book: share of views that did not become a booking. "
                    "cancel and no_show: share of bookings. Blank = not applicable.")
     with right:
@@ -244,7 +269,7 @@ def page_client(t):
         tickets = tickets.sort_values("tickets")
         fig = px.bar(tickets, x="tickets", y="category", orientation="h", text="tickets", labels={"category": ""})
         fig.update_traces(marker_color=BLUE, textposition="outside")
-        st.plotly_chart(style(fig, 330), width="stretch")
+        show_chart(style(fig, 330))
 
 
 # --------------------------------------------------------------------------
