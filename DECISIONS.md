@@ -28,3 +28,12 @@ Log of choices made where SPEC.md was ambiguous.
 - Indexes: `events(client_id, feature, ts)` as the spec asks, plus `events(employee_id, feature, ts)` for the cohort-retention query, and small indexes on the join keys.
 - Booleans are 0/1 integers with CHECK constraints. Empty `enabled_date`, `policy_max_days_per_week` and `resolved_at` become NULL.
 - `data/workplace.db` is 159 MB, so it stays gitignored. `python load_db.py` rebuilds it in seconds.
+
+## P4: SQL 01-03 and run_queries.py
+- **"Use" definition:** a `book` or `check_in` event. A `view` alone is browsing, not adoption. This is why Parking at a zero-spot client shows as low adoption even though people open the page.
+- **Funnel stages (employee level):** eligible employees (in offices where the feature is on) -> ever used -> habitual (used in >= 3 of the last 4 weeks). "Last 4 weeks" = the 28 days ending 2025-12-31, as 7-day blocks counted backwards. These weeks include the Christmas dip, so the habitual numbers are a little conservative, especially for US/UK clients.
+- **SQL file format:** a file may hold several queries. A line `-- @result name` starts a query that `run_queries.py` saves as `outputs/<file>__<name>.csv`. Text before the first marker is setup (temp tables). This keeps "one question per file" while allowing a few related result sets.
+- **Resume number X (QR no repeat use):** per QR-enabled client, compare check-ins in month 1 (the 30 days from `enabled_date`) with the average 30-day rate after that. "No repeat use" = month 1 had no check-ins, or the later rate is below 25% of month 1. The 0.25 threshold was written before looking at the results. In the output the ratios are clearly split: 0.07 and 0.09 versus 1.78 and above, so the choice of threshold does not change the answer.
+- **Known limitation of X:** `enabled_date` before 2025-01-01 (client C002, enabled Dec 2024) makes month 1 partly invisible, because events only start on 1 Jan. Its ratio (10.05) is inflated, but it is not flagged either way.
+- **Cohort retention:** cohort = month of first `book` event, activity = any booking in a month. There is one table for any feature and one per feature. Later cohorts have fewer months of history and are cut off at Dec 2025.
+- **DAU/WAU/MAU:** DAU is averaged over weekdays only (Mon-Fri), with zero-activity weekdays counted as 0 via a calendar table. Weekends are excluded because hybrid offices are nearly empty then. Weeks run Mon-Sun and belong to the month they start in.

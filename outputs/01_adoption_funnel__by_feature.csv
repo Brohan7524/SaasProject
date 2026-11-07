@@ -1,0 +1,7 @@
+feature,clients_enabled,clients_with_any_use,eligible_employees,employees_ever_used,employees_habitual,pct_ever_used,pct_habitual
+QR Check-in,23,23,12221,5335,1412,43.7,11.6
+Desk Booking,39,39,18846,9262,1230,49.1,6.5
+Parking,17,17,8337,1863,326,22.3,3.9
+Meeting Room Booking,32,32,16330,4649,221,28.5,1.4
+Visitor Management,22,22,11570,1125,24,9.7,0.2
+Attendance Policy,26,26,11312,4418,25,39.1,0.2

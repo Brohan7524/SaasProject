@@ -1,0 +1,388 @@
+feature,cohort_month,month_n,active_employees,cohort_size,retention_pct
+Attendance Policy,2025-01,0,157,157,100.0
+Attendance Policy,2025-01,1,68,157,43.3
+Attendance Policy,2025-01,2,58,157,36.9
+Attendance Policy,2025-01,3,64,157,40.8
+Attendance Policy,2025-01,4,59,157,37.6
+Attendance Policy,2025-01,5,47,157,29.9
+Attendance Policy,2025-01,6,51,157,32.5
+Attendance Policy,2025-01,7,40,157,25.5
+Attendance Policy,2025-01,8,49,157,31.2
+Attendance Policy,2025-01,9,40,157,25.5
+Attendance Policy,2025-01,10,35,157,22.3
+Attendance Policy,2025-01,11,36,157,22.9
+Attendance Policy,2025-02,0,251,251,100.0
+Attendance Policy,2025-02,1,108,251,43.0
+Attendance Policy,2025-02,2,89,251,35.5
+Attendance Policy,2025-02,3,99,251,39.4
+Attendance Policy,2025-02,4,94,251,37.5
+Attendance Policy,2025-02,5,86,251,34.3
+Attendance Policy,2025-02,6,88,251,35.1
+Attendance Policy,2025-02,7,67,251,26.7
+Attendance Policy,2025-02,8,67,251,26.7
+Attendance Policy,2025-02,9,51,251,20.3
+Attendance Policy,2025-02,10,55,251,21.9
+Attendance Policy,2025-03,0,440,440,100.0
+Attendance Policy,2025-03,1,197,440,44.8
+Attendance Policy,2025-03,2,186,440,42.3
+Attendance Policy,2025-03,3,180,440,40.9
+Attendance Policy,2025-03,4,175,440,39.8
+Attendance Policy,2025-03,5,156,440,35.5
+Attendance Policy,2025-03,6,142,440,32.3
+Attendance Policy,2025-03,7,119,440,27.0
+Attendance Policy,2025-03,8,121,440,27.5
+Attendance Policy,2025-03,9,100,440,22.7
+Attendance Policy,2025-04,0,570,570,100.0
+Attendance Policy,2025-04,1,258,570,45.3
+Attendance Policy,2025-04,2,231,570,40.5
+Attendance Policy,2025-04,3,222,570,38.9
+Attendance Policy,2025-04,4,185,570,32.5
+Attendance Policy,2025-04,5,191,570,33.5
+Attendance Policy,2025-04,6,159,570,27.9
+Attendance Policy,2025-04,7,129,570,22.6
+Attendance Policy,2025-04,8,134,570,23.5
+Attendance Policy,2025-05,0,540,540,100.0
+Attendance Policy,2025-05,1,235,540,43.5
+Attendance Policy,2025-05,2,232,540,43.0
+Attendance Policy,2025-05,3,173,540,32.0
+Attendance Policy,2025-05,4,198,540,36.7
+Attendance Policy,2025-05,5,183,540,33.9
+Attendance Policy,2025-05,6,168,540,31.1
+Attendance Policy,2025-05,7,140,540,25.9
+Attendance Policy,2025-06,0,496,496,100.0
+Attendance Policy,2025-06,1,245,496,49.4
+Attendance Policy,2025-06,2,196,496,39.5
+Attendance Policy,2025-06,3,185,496,37.3
+Attendance Policy,2025-06,4,175,496,35.3
+Attendance Policy,2025-06,5,147,496,29.6
+Attendance Policy,2025-06,6,134,496,27.0
+Attendance Policy,2025-07,0,554,554,100.0
+Attendance Policy,2025-07,1,218,554,39.4
+Attendance Policy,2025-07,2,230,554,41.5
+Attendance Policy,2025-07,3,199,554,35.9
+Attendance Policy,2025-07,4,176,554,31.8
+Attendance Policy,2025-07,5,163,554,29.4
+Attendance Policy,2025-08,0,433,433,100.0
+Attendance Policy,2025-08,1,176,433,40.6
+Attendance Policy,2025-08,2,170,433,39.3
+Attendance Policy,2025-08,3,139,433,32.1
+Attendance Policy,2025-08,4,133,433,30.7
+Attendance Policy,2025-09,0,396,396,100.0
+Attendance Policy,2025-09,1,149,396,37.6
+Attendance Policy,2025-09,2,132,396,33.3
+Attendance Policy,2025-09,3,131,396,33.1
+Attendance Policy,2025-10,0,258,258,100.0
+Attendance Policy,2025-10,1,93,258,36.0
+Attendance Policy,2025-10,2,87,258,33.7
+Attendance Policy,2025-11,0,191,191,100.0
+Attendance Policy,2025-11,1,65,191,34.0
+Attendance Policy,2025-12,0,132,132,100.0
+Desk Booking,2025-01,0,1510,1510,100.0
+Desk Booking,2025-01,1,1292,1510,85.6
+Desk Booking,2025-01,2,1221,1510,80.9
+Desk Booking,2025-01,3,1137,1510,75.3
+Desk Booking,2025-01,4,1046,1510,69.3
+Desk Booking,2025-01,5,952,1510,63.0
+Desk Booking,2025-01,6,906,1510,60.0
+Desk Booking,2025-01,7,808,1510,53.5
+Desk Booking,2025-01,8,761,1510,50.4
+Desk Booking,2025-01,9,712,1510,47.2
+Desk Booking,2025-01,10,624,1510,41.3
+Desk Booking,2025-01,11,585,1510,38.7
+Desk Booking,2025-02,0,1121,1121,100.0
+Desk Booking,2025-02,1,984,1121,87.8
+Desk Booking,2025-02,2,916,1121,81.7
+Desk Booking,2025-02,3,831,1121,74.1
+Desk Booking,2025-02,4,769,1121,68.6
+Desk Booking,2025-02,5,726,1121,64.8
+Desk Booking,2025-02,6,645,1121,57.5
+Desk Booking,2025-02,7,625,1121,55.8
+Desk Booking,2025-02,8,578,1121,51.6
+Desk Booking,2025-02,9,516,1121,46.0
+Desk Booking,2025-02,10,462,1121,41.2
+Desk Booking,2025-03,0,1241,1241,100.0
+Desk Booking,2025-03,1,1073,1241,86.5
+Desk Booking,2025-03,2,993,1241,80.0
+Desk Booking,2025-03,3,917,1241,73.9
+Desk Booking,2025-03,4,855,1241,68.9
+Desk Booking,2025-03,5,751,1241,60.5
+Desk Booking,2025-03,6,725,1241,58.4
+Desk Booking,2025-03,7,683,1241,55.0
+Desk Booking,2025-03,8,600,1241,48.3
+Desk Booking,2025-03,9,555,1241,44.7
+Desk Booking,2025-04,0,1086,1086,100.0
+Desk Booking,2025-04,1,935,1086,86.1
+Desk Booking,2025-04,2,856,1086,78.8
+Desk Booking,2025-04,3,812,1086,74.8
+Desk Booking,2025-04,4,714,1086,65.7
+Desk Booking,2025-04,5,680,1086,62.6
+Desk Booking,2025-04,6,646,1086,59.5
+Desk Booking,2025-04,7,565,1086,52.0
+Desk Booking,2025-04,8,537,1086,49.4
+Desk Booking,2025-05,0,1215,1215,100.0
+Desk Booking,2025-05,1,1027,1215,84.5
+Desk Booking,2025-05,2,971,1215,79.9
+Desk Booking,2025-05,3,876,1215,72.1
+Desk Booking,2025-05,4,804,1215,66.2
+Desk Booking,2025-05,5,759,1215,62.5
+Desk Booking,2025-05,6,682,1215,56.1
+Desk Booking,2025-05,7,628,1215,51.7
+Desk Booking,2025-06,0,1080,1080,100.0
+Desk Booking,2025-06,1,932,1080,86.3
+Desk Booking,2025-06,2,814,1080,75.4
+Desk Booking,2025-06,3,799,1080,74.0
+Desk Booking,2025-06,4,728,1080,67.4
+Desk Booking,2025-06,5,658,1080,60.9
+Desk Booking,2025-06,6,614,1080,56.9
+Desk Booking,2025-07,0,840,840,100.0
+Desk Booking,2025-07,1,661,840,78.7
+Desk Booking,2025-07,2,620,840,73.8
+Desk Booking,2025-07,3,589,840,70.1
+Desk Booking,2025-07,4,525,840,62.5
+Desk Booking,2025-07,5,491,840,58.5
+Desk Booking,2025-08,0,484,484,100.0
+Desk Booking,2025-08,1,383,484,79.1
+Desk Booking,2025-08,2,351,484,72.5
+Desk Booking,2025-08,3,330,484,68.2
+Desk Booking,2025-08,4,293,484,60.5
+Desk Booking,2025-09,0,344,344,100.0
+Desk Booking,2025-09,1,260,344,75.6
+Desk Booking,2025-09,2,233,344,67.7
+Desk Booking,2025-09,3,197,344,57.3
+Desk Booking,2025-10,0,214,214,100.0
+Desk Booking,2025-10,1,161,214,75.2
+Desk Booking,2025-10,2,144,214,67.3
+Desk Booking,2025-11,0,87,87,100.0
+Desk Booking,2025-11,1,65,87,74.7
+Desk Booking,2025-12,0,40,40,100.0
+Meeting Room Booking,2025-01,0,396,396,100.0
+Meeting Room Booking,2025-01,1,270,396,68.2
+Meeting Room Booking,2025-01,2,276,396,69.7
+Meeting Room Booking,2025-01,3,251,396,63.4
+Meeting Room Booking,2025-01,4,227,396,57.3
+Meeting Room Booking,2025-01,5,213,396,53.8
+Meeting Room Booking,2025-01,6,198,396,50.0
+Meeting Room Booking,2025-01,7,181,396,45.7
+Meeting Room Booking,2025-01,8,165,396,41.7
+Meeting Room Booking,2025-01,9,162,396,40.9
+Meeting Room Booking,2025-01,10,146,396,36.9
+Meeting Room Booking,2025-01,11,134,396,33.8
+Meeting Room Booking,2025-02,0,511,511,100.0
+Meeting Room Booking,2025-02,1,374,511,73.2
+Meeting Room Booking,2025-02,2,343,511,67.1
+Meeting Room Booking,2025-02,3,303,511,59.3
+Meeting Room Booking,2025-02,4,292,511,57.1
+Meeting Room Booking,2025-02,5,271,511,53.0
+Meeting Room Booking,2025-02,6,221,511,43.2
+Meeting Room Booking,2025-02,7,221,511,43.2
+Meeting Room Booking,2025-02,8,214,511,41.9
+Meeting Room Booking,2025-02,9,173,511,33.9
+Meeting Room Booking,2025-02,10,159,511,31.1
+Meeting Room Booking,2025-03,0,476,476,100.0
+Meeting Room Booking,2025-03,1,344,476,72.3
+Meeting Room Booking,2025-03,2,317,476,66.6
+Meeting Room Booking,2025-03,3,286,476,60.1
+Meeting Room Booking,2025-03,4,284,476,59.7
+Meeting Room Booking,2025-03,5,234,476,49.2
+Meeting Room Booking,2025-03,6,233,476,48.9
+Meeting Room Booking,2025-03,7,226,476,47.5
+Meeting Room Booking,2025-03,8,196,476,41.2
+Meeting Room Booking,2025-03,9,179,476,37.6
+Meeting Room Booking,2025-04,0,456,456,100.0
+Meeting Room Booking,2025-04,1,315,456,69.1
+Meeting Room Booking,2025-04,2,299,456,65.6
+Meeting Room Booking,2025-04,3,288,456,63.2
+Meeting Room Booking,2025-04,4,247,456,54.2
+Meeting Room Booking,2025-04,5,239,456,52.4
+Meeting Room Booking,2025-04,6,223,456,48.9
+Meeting Room Booking,2025-04,7,203,456,44.5
+Meeting Room Booking,2025-04,8,177,456,38.8
+Meeting Room Booking,2025-05,0,603,603,100.0
+Meeting Room Booking,2025-05,1,430,603,71.3
+Meeting Room Booking,2025-05,2,402,603,66.7
+Meeting Room Booking,2025-05,3,348,603,57.7
+Meeting Room Booking,2025-05,4,354,603,58.7
+Meeting Room Booking,2025-05,5,315,603,52.2
+Meeting Room Booking,2025-05,6,277,603,45.9
+Meeting Room Booking,2025-05,7,256,603,42.5
+Meeting Room Booking,2025-06,0,654,654,100.0
+Meeting Room Booking,2025-06,1,491,654,75.1
+Meeting Room Booking,2025-06,2,415,654,63.5
+Meeting Room Booking,2025-06,3,406,654,62.1
+Meeting Room Booking,2025-06,4,369,654,56.4
+Meeting Room Booking,2025-06,5,330,654,50.5
+Meeting Room Booking,2025-06,6,301,654,46.0
+Meeting Room Booking,2025-07,0,602,602,100.0
+Meeting Room Booking,2025-07,1,408,602,67.8
+Meeting Room Booking,2025-07,2,395,602,65.6
+Meeting Room Booking,2025-07,3,377,602,62.6
+Meeting Room Booking,2025-07,4,309,602,51.3
+Meeting Room Booking,2025-07,5,318,602,52.8
+Meeting Room Booking,2025-08,0,366,366,100.0
+Meeting Room Booking,2025-08,1,250,366,68.3
+Meeting Room Booking,2025-08,2,227,366,62.0
+Meeting Room Booking,2025-08,3,202,366,55.2
+Meeting Room Booking,2025-08,4,184,366,50.3
+Meeting Room Booking,2025-09,0,284,284,100.0
+Meeting Room Booking,2025-09,1,196,284,69.0
+Meeting Room Booking,2025-09,2,172,284,60.6
+Meeting Room Booking,2025-09,3,154,284,54.2
+Meeting Room Booking,2025-10,0,182,182,100.0
+Meeting Room Booking,2025-10,1,115,182,63.2
+Meeting Room Booking,2025-10,2,114,182,62.6
+Meeting Room Booking,2025-11,0,83,83,100.0
+Meeting Room Booking,2025-11,1,60,83,72.3
+Meeting Room Booking,2025-12,0,36,36,100.0
+Parking,2025-01,0,35,35,100.0
+Parking,2025-01,1,30,35,85.7
+Parking,2025-01,2,28,35,80.0
+Parking,2025-01,3,24,35,68.6
+Parking,2025-01,4,22,35,62.9
+Parking,2025-01,5,23,35,65.7
+Parking,2025-01,6,20,35,57.1
+Parking,2025-01,7,19,35,54.3
+Parking,2025-01,8,18,35,51.4
+Parking,2025-01,9,18,35,51.4
+Parking,2025-01,10,15,35,42.9
+Parking,2025-01,11,13,35,37.1
+Parking,2025-02,0,118,118,100.0
+Parking,2025-02,1,102,118,86.4
+Parking,2025-02,2,91,118,77.1
+Parking,2025-02,3,84,118,71.2
+Parking,2025-02,4,73,118,61.9
+Parking,2025-02,5,71,118,60.2
+Parking,2025-02,6,62,118,52.5
+Parking,2025-02,7,66,118,55.9
+Parking,2025-02,8,61,118,51.7
+Parking,2025-02,9,53,118,44.9
+Parking,2025-02,10,55,118,46.6
+Parking,2025-03,0,126,126,100.0
+Parking,2025-03,1,112,126,88.9
+Parking,2025-03,2,113,126,89.7
+Parking,2025-03,3,103,126,81.7
+Parking,2025-03,4,90,126,71.4
+Parking,2025-03,5,79,126,62.7
+Parking,2025-03,6,80,126,63.5
+Parking,2025-03,7,68,126,54.0
+Parking,2025-03,8,63,126,50.0
+Parking,2025-03,9,55,126,43.7
+Parking,2025-04,0,217,217,100.0
+Parking,2025-04,1,198,217,91.2
+Parking,2025-04,2,173,217,79.7
+Parking,2025-04,3,173,217,79.7
+Parking,2025-04,4,149,217,68.7
+Parking,2025-04,5,144,217,66.4
+Parking,2025-04,6,126,217,58.1
+Parking,2025-04,7,114,217,52.5
+Parking,2025-04,8,108,217,49.8
+Parking,2025-05,0,312,312,100.0
+Parking,2025-05,1,282,312,90.4
+Parking,2025-05,2,261,312,83.7
+Parking,2025-05,3,231,312,74.0
+Parking,2025-05,4,211,312,67.6
+Parking,2025-05,5,196,312,62.8
+Parking,2025-05,6,177,312,56.7
+Parking,2025-05,7,167,312,53.5
+Parking,2025-06,0,293,293,100.0
+Parking,2025-06,1,255,293,87.0
+Parking,2025-06,2,231,293,78.8
+Parking,2025-06,3,227,293,77.5
+Parking,2025-06,4,210,293,71.7
+Parking,2025-06,5,189,293,64.5
+Parking,2025-06,6,169,293,57.7
+Parking,2025-07,0,347,347,100.0
+Parking,2025-07,1,290,347,83.6
+Parking,2025-07,2,290,347,83.6
+Parking,2025-07,3,260,347,74.9
+Parking,2025-07,4,242,347,69.7
+Parking,2025-07,5,227,347,65.4
+Parking,2025-08,0,204,204,100.0
+Parking,2025-08,1,174,204,85.3
+Parking,2025-08,2,160,204,78.4
+Parking,2025-08,3,148,204,72.5
+Parking,2025-08,4,131,204,64.2
+Parking,2025-09,0,130,130,100.0
+Parking,2025-09,1,114,130,87.7
+Parking,2025-09,2,108,130,83.1
+Parking,2025-09,3,94,130,72.3
+Parking,2025-10,0,54,54,100.0
+Parking,2025-10,1,41,54,75.9
+Parking,2025-10,2,37,54,68.5
+Parking,2025-11,0,22,22,100.0
+Parking,2025-11,1,22,22,100.0
+Parking,2025-12,0,5,5,100.0
+Visitor Management,2025-01,0,2,2,100.0
+Visitor Management,2025-01,1,2,2,100.0
+Visitor Management,2025-01,2,2,2,100.0
+Visitor Management,2025-01,3,1,2,50.0
+Visitor Management,2025-01,5,1,2,50.0
+Visitor Management,2025-01,6,1,2,50.0
+Visitor Management,2025-01,8,1,2,50.0
+Visitor Management,2025-01,10,1,2,50.0
+Visitor Management,2025-01,11,1,2,50.0
+Visitor Management,2025-02,0,29,29,100.0
+Visitor Management,2025-02,1,14,29,48.3
+Visitor Management,2025-02,2,16,29,55.2
+Visitor Management,2025-02,3,14,29,48.3
+Visitor Management,2025-02,4,15,29,51.7
+Visitor Management,2025-02,5,11,29,37.9
+Visitor Management,2025-02,6,15,29,51.7
+Visitor Management,2025-02,7,7,29,24.1
+Visitor Management,2025-02,8,9,29,31.0
+Visitor Management,2025-02,9,10,29,34.5
+Visitor Management,2025-02,10,5,29,17.2
+Visitor Management,2025-03,0,63,63,100.0
+Visitor Management,2025-03,1,36,63,57.1
+Visitor Management,2025-03,2,39,63,61.9
+Visitor Management,2025-03,3,35,63,55.6
+Visitor Management,2025-03,4,37,63,58.7
+Visitor Management,2025-03,5,35,63,55.6
+Visitor Management,2025-03,6,28,63,44.4
+Visitor Management,2025-03,7,28,63,44.4
+Visitor Management,2025-03,8,25,63,39.7
+Visitor Management,2025-03,9,26,63,41.3
+Visitor Management,2025-04,0,92,92,100.0
+Visitor Management,2025-04,1,59,92,64.1
+Visitor Management,2025-04,2,53,92,57.6
+Visitor Management,2025-04,3,45,92,48.9
+Visitor Management,2025-04,4,42,92,45.7
+Visitor Management,2025-04,5,46,92,50.0
+Visitor Management,2025-04,6,39,92,42.4
+Visitor Management,2025-04,7,42,92,45.7
+Visitor Management,2025-04,8,27,92,29.3
+Visitor Management,2025-05,0,121,121,100.0
+Visitor Management,2025-05,1,62,121,51.2
+Visitor Management,2025-05,2,59,121,48.8
+Visitor Management,2025-05,3,47,121,38.8
+Visitor Management,2025-05,4,46,121,38.0
+Visitor Management,2025-05,5,47,121,38.8
+Visitor Management,2025-05,6,43,121,35.5
+Visitor Management,2025-05,7,36,121,29.8
+Visitor Management,2025-06,0,133,133,100.0
+Visitor Management,2025-06,1,89,133,66.9
+Visitor Management,2025-06,2,68,133,51.1
+Visitor Management,2025-06,3,71,133,53.4
+Visitor Management,2025-06,4,60,133,45.1
+Visitor Management,2025-06,5,63,133,47.4
+Visitor Management,2025-06,6,58,133,43.6
+Visitor Management,2025-07,0,155,155,100.0
+Visitor Management,2025-07,1,80,155,51.6
+Visitor Management,2025-07,2,85,155,54.8
+Visitor Management,2025-07,3,70,155,45.2
+Visitor Management,2025-07,4,59,155,38.1
+Visitor Management,2025-07,5,57,155,36.8
+Visitor Management,2025-08,0,135,135,100.0
+Visitor Management,2025-08,1,77,135,57.0
+Visitor Management,2025-08,2,63,135,46.7
+Visitor Management,2025-08,3,62,135,45.9
+Visitor Management,2025-08,4,50,135,37.0
+Visitor Management,2025-09,0,146,146,100.0
+Visitor Management,2025-09,1,81,146,55.5
+Visitor Management,2025-09,2,55,146,37.7
+Visitor Management,2025-09,3,58,146,39.7
+Visitor Management,2025-10,0,114,114,100.0
+Visitor Management,2025-10,1,53,114,46.5
+Visitor Management,2025-10,2,60,114,52.6
+Visitor Management,2025-11,0,77,77,100.0
+Visitor Management,2025-11,1,45,77,58.4
+Visitor Management,2025-12,0,58,58,100.0
