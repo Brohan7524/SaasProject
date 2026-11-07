@@ -69,3 +69,10 @@ Log of choices made where SPEC.md was ambiguous.
 - **Why 100% is weak evidence, and what to say about it in an interview:** I wrote both the data generator and the rules, and the planted effects are large (e.g. view-to-book 0.15 vs 0.75). The decoys (a 1-in-3 unsynced office, a 50% phased rollout, a cap of 2 with normal booking, a ~25% decline) did test the thresholds, and none were flagged. Real data would be noisier. The thin margins in this run are:
   - Rollout: C031 sits exactly on the 25% limit (1 of 4 offices). A stricter limit of 20% would miss it.
   - Churn: the two flagged clients have seasonally adjusted drops of 56% and 60% against a 50% threshold. The decoy "mild decline" is not flagged.
+
+## P7: Excel tracker and Power BI tables
+- **No real PivotTable:** openpyxl cannot create one. The "Feature Matrix" sheet is the already-pivoted client x feature grid with conditional formatting. `fact_feature_adoption.csv` is the long-format version for pivoting in Excel or Power BI.
+- **Heat map colour scale is per feature column** (red = lowest, yellow = median, green = highest among clients using that feature). A single global scale would paint Visitor Management (about 7% average adoption) red everywhere and hide differences between clients.
+- **Two supporting SQL changes:** `sql/07_client_monthly_usage.sql` (monthly client x feature usage, for trend visuals) and a new result `all_enabled` in `05_why_not.sql` (all enabled client x features, not only low adopters). The six core question files are unchanged.
+- **Power BI tables are a star schema:** `dim_clients` and `dim_feature` connect to the fact tables on `client_id` and `feature`. Months are exported as first-of-month dates. Blank cells are intentional: a disabled feature has no adoption %, and QR has no "view" step so view-without-book is blank. `outputs/powerbi/README.md` lists relationships, page layouts and DAX measures.
+- **Not verified visually:** I checked the workbook structure with openpyxl (sheets, conditional-format ranges, values), but there is no Excel or LibreOffice on this machine to render it. Open the file once to check the colours.

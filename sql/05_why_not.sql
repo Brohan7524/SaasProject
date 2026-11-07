@@ -87,6 +87,12 @@ FROM behaviour
 WHERE is_low_adopter = 1
 ORDER BY feature, adoption_pct_of_employees;
 
+-- @result all_enabled
+-- Same detail for every enabled client x feature (not only low adopters). Used by Power BI.
+SELECT *
+FROM behaviour
+ORDER BY client_id, feature;
+
 -- @result low_vs_rest_by_feature
 -- Do low adopters behave differently from the rest? (Rates are pooled over all rows in each group.)
 SELECT feature,

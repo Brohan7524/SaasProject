@@ -1,0 +1,160 @@
+client_id,client_name,feature,adoption_pct_of_employees,coverage_pct,adoption_quartile,is_low_adopter,views,books,cancels,no_shows,view_without_book_pct,cancel_pct,no_show_pct,tickets_total,tickets_per_100_employees,t_how_to,t_bug,t_access,t_feature_request,t_integration,t_configuration,t_hardware,t_policy_restriction,top_ticket_category
+C001,"Choudhury, Bakshi and Maharaj",Desk Booking,34.4,100.0,3,0,9738,7241,682,425,25.6,9.4,5.9,11,1.34,5,3,1,0,2,0,0,0,how_to
+C001,"Choudhury, Bakshi and Maharaj",Meeting Room Booking,21.1,100.0,3,0,3305,2155,216,176,34.8,10.0,8.2,8,0.98,2,2,2,2,0,0,0,0,access
+C001,"Choudhury, Bakshi and Maharaj",QR Check-in,30.2,100.0,2,0,0,0,0,0,,,,10,1.22,1,1,3,3,2,0,0,0,access
+C001,"Choudhury, Bakshi and Maharaj",Visitor Management,6.6,100.0,2,0,438,373,22,24,14.8,5.9,6.4,10,1.22,3,4,1,0,1,0,1,0,bug
+C002,Kapoor and Sons,Attendance Policy,27.3,100.0,3,0,2069,1034,95,0,50.0,9.2,0.0,6,1.41,3,0,0,1,1,1,0,0,how_to
+C002,Kapoor and Sons,Desk Booking,33.2,100.0,3,0,7764,5834,587,304,24.9,10.1,5.2,10,2.35,6,1,1,0,0,1,0,1,how_to
+C002,Kapoor and Sons,Meeting Room Booking,22.4,100.0,4,0,3041,1924,259,126,36.7,13.5,6.5,7,1.65,0,3,2,1,0,0,0,1,bug
+C002,Kapoor and Sons,Parking,18.4,100.0,3,0,3425,2707,233,96,21.0,8.6,3.5,8,1.88,2,3,1,1,1,0,0,0,bug
+C002,Kapoor and Sons,QR Check-in,33.9,100.0,3,0,0,0,0,0,,,,8,1.88,3,0,3,0,1,1,0,0,access
+C002,Kapoor and Sons,Visitor Management,8.7,100.0,4,0,431,377,25,19,12.5,6.6,5.0,8,1.88,3,2,1,0,1,1,0,0,how_to
+C003,"Chaudry, Chahal and Sami",Attendance Policy,14.6,100.0,1,1,2226,1088,105,0,51.1,9.7,0.0,10,1.38,3,4,2,0,1,0,0,0,bug
+C003,"Chaudry, Chahal and Sami",Desk Booking,20.6,100.0,1,1,8253,6193,625,322,25.0,10.1,5.2,9,1.24,4,2,0,2,0,1,0,0,how_to
+C003,"Chaudry, Chahal and Sami",Meeting Room Booking,14.4,100.0,1,1,3001,1942,196,154,35.3,10.1,7.9,9,1.24,3,3,0,2,1,0,0,0,bug
+C003,"Chaudry, Chahal and Sami",Parking,10.3,100.0,1,1,3260,2531,187,123,22.4,7.4,4.9,2,0.28,0,0,1,0,0,1,0,0,access
+C003,"Chaudry, Chahal and Sami",QR Check-in,19.1,100.0,1,1,0,0,0,0,,,,4,0.55,0,2,0,1,0,1,0,0,bug
+C004,Balan Inc,Desk Booking,31.3,100.0,2,0,4459,3344,338,177,25.0,10.1,5.3,3,0.9,1,1,0,1,0,0,0,0,bug
+C004,Balan Inc,Meeting Room Booking,18.4,100.0,2,0,1857,1207,139,76,35.0,11.5,6.3,7,2.11,1,2,3,0,0,1,0,0,access
+C004,Balan Inc,QR Check-in,28.6,100.0,2,0,0,0,0,0,,,,7,2.11,4,3,0,0,0,0,0,0,how_to
+C004,Balan Inc,Visitor Management,5.7,100.0,1,1,210,170,12,10,19.0,7.1,5.9,6,1.81,3,1,0,0,1,1,0,0,how_to
+C005,Kaul PLC,Attendance Policy,19.8,100.0,1,1,1456,740,81,0,49.2,10.9,0.0,4,0.98,2,0,0,0,1,0,1,0,how_to
+C005,Kaul PLC,Desk Booking,28.9,100.0,2,0,6009,4458,443,234,25.8,9.9,5.2,6,1.47,1,1,0,1,0,3,0,0,configuration
+C005,Kaul PLC,Meeting Room Booking,9.3,100.0,1,1,1169,757,85,239,35.2,11.2,31.6,49,11.98,6,16,1,3,22,1,0,0,integration
+C006,"Bala, Issac and Saini",Attendance Policy,17.8,100.0,1,1,1391,681,77,0,51.0,11.3,0.0,9,2.23,3,2,1,1,0,2,0,0,how_to
+C006,"Bala, Issac and Saini",Desk Booking,30.4,100.0,2,0,5895,4439,427,235,24.7,9.6,5.3,4,0.99,1,1,1,0,1,0,0,0,access
+C006,"Bala, Issac and Saini",Meeting Room Booking,17.3,100.0,2,0,2075,1313,155,89,36.7,11.8,6.8,5,1.24,1,1,1,0,2,0,0,0,integration
+C006,"Bala, Issac and Saini",Parking,0.7,100.0,1,1,923,13,1,0,98.6,7.7,0.0,48,11.88,15,8,0,0,0,24,1,0,configuration
+C006,"Bala, Issac and Saini",QR Check-in,28.5,100.0,2,0,0,0,0,0,,,,11,2.72,3,2,5,1,0,0,0,0,access
+C006,"Bala, Issac and Saini",Visitor Management,7.9,100.0,3,0,366,299,27,9,18.3,9.0,3.0,2,0.5,2,0,0,0,0,0,0,0,how_to
+C007,Sen PLC,Attendance Policy,30.3,100.0,4,0,814,400,46,0,50.9,11.5,0.0,44,19.3,10,0,0,10,0,0,0,24,policy_restriction
+C007,Sen PLC,Desk Booking,35.1,100.0,3,0,3855,600,64,38,84.4,10.7,6.3,6,2.63,1,3,2,0,0,0,0,0,bug
+C007,Sen PLC,Meeting Room Booking,25.0,100.0,4,0,1293,844,94,66,34.7,11.1,7.8,11,4.82,4,3,2,0,1,1,0,0,how_to
+C007,Sen PLC,Parking,23.2,100.0,4,0,1638,1283,103,64,21.7,8.0,5.0,6,2.63,1,2,0,1,1,1,0,0,bug
+C007,Sen PLC,QR Check-in,36.0,100.0,3,0,0,0,0,0,,,,4,1.75,2,2,0,0,0,0,0,0,bug
+C007,Sen PLC,Visitor Management,9.6,100.0,4,0,139,121,13,8,12.9,10.7,6.6,6,2.63,3,0,2,0,0,0,1,0,how_to
+C008,Ahuja-Dutta,Desk Booking,40.4,100.0,4,0,10522,7894,776,462,25.0,9.8,5.9,8,1.08,2,2,0,2,1,0,0,1,bug
+C008,Ahuja-Dutta,Meeting Room Booking,27.1,100.0,4,0,3504,2259,280,173,35.5,12.4,7.7,6,0.81,3,1,1,0,0,1,0,0,how_to
+C008,Ahuja-Dutta,Parking,20.5,100.0,4,0,4428,3541,308,187,20.0,8.7,5.3,11,1.48,2,1,3,0,1,1,1,2,access
+C009,"Sami, Oak and Mall",Attendance Policy,32.4,100.0,4,0,987,483,48,0,51.1,9.9,0.0,41,10.79,7,2,3,10,1,0,0,18,policy_restriction
+C009,"Sami, Oak and Mall",Desk Booking,38.2,100.0,4,0,4953,711,85,37,85.6,12.0,5.2,5,1.32,2,1,0,1,0,0,0,1,how_to
+C009,"Sami, Oak and Mall",Meeting Room Booking,29.5,100.0,4,0,1620,1028,137,66,36.5,13.3,6.4,7,1.84,1,2,1,1,1,1,0,0,bug
+C009,"Sami, Oak and Mall",QR Check-in,49.5,100.0,4,0,0,0,0,0,,,,7,1.84,3,2,1,1,0,0,0,0,how_to
+C009,"Sami, Oak and Mall",Visitor Management,9.7,100.0,4,0,135,117,8,4,13.3,6.8,3.4,12,3.16,5,3,2,2,0,0,0,0,how_to
+C010,Kale LLC,Attendance Policy,23.7,100.0,3,0,1119,517,56,0,53.8,10.8,0.0,5,0.94,2,1,0,1,0,1,0,0,how_to
+C010,Kale LLC,Desk Booking,37.8,100.0,4,0,5603,4207,403,221,24.9,9.6,5.3,7,1.32,2,3,2,0,0,0,0,0,bug
+C010,Kale LLC,Parking,17.1,100.0,2,0,2253,1807,135,87,19.8,7.5,4.8,10,1.88,4,0,3,1,1,0,1,0,how_to
+C011,Chanda Group,Desk Booking,39.5,100.0,4,0,11663,8767,900,469,24.8,10.3,5.3,21,2.84,3,9,5,0,0,1,2,1,bug
+C011,Chanda Group,QR Check-in,40.6,100.0,4,0,0,0,0,0,,,,23,3.11,6,4,9,3,0,1,0,0,access
+C011,Chanda Group,Visitor Management,8.5,100.0,4,0,481,415,31,19,13.7,7.5,4.6,25,3.38,8,8,7,0,0,2,0,0,bug
+C012,Parmer LLC,Desk Booking,36.1,100.0,3,0,6177,4647,475,248,24.8,10.2,5.3,11,1.52,2,2,1,1,0,3,1,1,configuration
+C013,"Lalla, Bassi and Sharaf",Attendance Policy,22.0,100.0,2,0,2921,1426,152,0,51.2,10.7,0.0,5,0.59,0,2,0,1,1,0,1,0,bug
+C013,"Lalla, Bassi and Sharaf",Desk Booking,34.2,100.0,3,0,11383,8557,905,423,24.8,10.6,4.9,9,1.07,2,2,0,2,1,1,1,0,bug
+C013,"Lalla, Bassi and Sharaf",Meeting Room Booking,21.8,100.0,3,0,3721,2450,285,179,34.2,11.6,7.3,7,0.83,3,1,1,1,1,0,0,0,how_to
+C013,"Lalla, Bassi and Sharaf",QR Check-in,33.8,100.0,3,0,0,0,0,0,,,,7,0.83,2,2,1,0,2,0,0,0,bug
+C013,"Lalla, Bassi and Sharaf",Visitor Management,7.3,100.0,3,0,521,458,30,24,12.1,6.6,5.2,8,0.95,2,3,1,2,0,0,0,0,bug
+C014,"Dash, Radhakrishnan and Brar",Attendance Policy,11.6,100.0,1,1,774,392,37,0,49.4,9.4,0.0,12,2.43,4,3,1,1,3,0,0,0,how_to
+C014,"Dash, Radhakrishnan and Brar",Desk Booking,13.8,100.0,1,1,3107,2281,241,120,26.6,10.6,5.3,5,1.01,4,0,1,0,0,0,0,0,how_to
+C014,"Dash, Radhakrishnan and Brar",Meeting Room Booking,8.1,100.0,1,1,1036,672,85,40,35.1,12.6,6.0,7,1.42,2,2,0,1,0,1,0,1,bug
+C014,"Dash, Radhakrishnan and Brar",Visitor Management,2.8,100.0,1,1,146,120,12,4,17.8,10.0,3.3,8,1.62,5,2,0,1,0,0,0,0,how_to
+C015,"Memon, Pathak and Handa",Attendance Policy,25.8,100.0,3,0,1375,686,78,0,50.1,11.4,0.0,7,1.79,4,1,0,0,0,1,0,1,how_to
+C015,"Memon, Pathak and Handa",Desk Booking,34.4,100.0,3,0,5548,4128,418,230,25.6,10.1,5.6,13,3.32,4,4,0,1,2,2,0,0,bug
+C015,"Memon, Pathak and Handa",Parking,17.9,100.0,3,0,2279,1821,153,84,20.1,8.4,4.6,6,1.53,4,1,0,0,1,0,0,0,how_to
+C016,"Boase, Bath and Kari",Attendance Policy,22.6,100.0,2,0,917,462,50,0,49.6,10.8,0.0,7,1.4,3,0,1,0,0,1,0,2,how_to
+C016,"Boase, Bath and Kari",Desk Booking,33.3,100.0,3,0,4616,3450,303,197,25.3,8.8,5.7,5,1.0,2,1,2,0,0,0,0,0,access
+C016,"Boase, Bath and Kari",Meeting Room Booking,20.4,100.0,3,0,1539,1025,123,75,33.4,12.0,7.3,8,1.6,2,2,2,0,0,2,0,0,access
+C016,"Boase, Bath and Kari",Visitor Management,6.6,100.0,2,0,125,101,8,4,19.2,7.9,4.0,5,1.0,4,0,1,0,0,0,0,0,how_to
+C017,Buch-Kaul,Attendance Policy,21.0,100.0,2,0,649,300,34,0,53.8,11.3,0.0,5,3.09,1,0,0,0,1,3,0,0,configuration
+C017,Buch-Kaul,Desk Booking,30.9,100.0,2,0,2653,1969,198,116,25.8,10.1,5.9,5,3.09,1,3,0,0,0,0,1,0,bug
+C017,Buch-Kaul,Meeting Room Booking,19.8,100.0,2,0,813,526,73,28,35.3,13.9,5.3,7,4.32,3,3,0,0,0,0,0,1,bug
+C017,Buch-Kaul,Parking,12.3,100.0,1,1,1225,975,75,41,20.4,7.7,4.2,5,3.09,2,0,1,0,0,1,1,0,how_to
+C017,Buch-Kaul,Visitor Management,6.8,100.0,2,0,141,118,5,4,16.3,4.2,3.4,4,2.47,1,0,2,1,0,0,0,0,access
+C018,Rai LLC,Attendance Policy,24.1,100.0,3,0,795,396,39,0,50.2,9.8,0.0,9,4.71,1,2,1,1,2,1,1,0,bug
+C018,Rai LLC,Desk Booking,35.1,100.0,3,0,2857,2102,200,102,26.4,9.5,4.9,5,2.62,2,1,0,1,1,0,0,0,how_to
+C018,Rai LLC,Meeting Room Booking,24.1,100.0,4,0,1120,724,83,50,35.4,11.5,6.9,3,1.57,1,0,1,1,0,0,0,0,access
+C018,Rai LLC,Parking,13.6,100.0,2,0,1308,1051,95,41,19.6,9.0,3.9,3,1.57,2,0,0,0,0,1,0,0,how_to
+C018,Rai LLC,Visitor Management,7.9,100.0,3,0,161,133,10,4,17.4,7.5,3.0,7,3.66,2,1,0,1,3,0,0,0,integration
+C019,Patla-Gaba,Attendance Policy,33.0,100.0,4,0,1032,540,47,0,47.7,8.7,0.0,3,1.44,1,0,0,1,0,0,0,1,feature_request
+C019,Patla-Gaba,QR Check-in,16.3,100.0,1,1,0,0,0,0,,,,50,23.92,12,1,0,2,0,7,27,1,hardware
+C019,Patla-Gaba,Visitor Management,7.2,100.0,3,0,124,103,9,4,16.9,8.7,3.9,3,1.44,1,0,1,0,0,0,0,1,access
+C020,Pant-Kadakia,Attendance Policy,35.9,100.0,4,0,1111,581,71,0,47.7,12.2,0.0,2,0.76,0,2,0,0,0,0,0,0,bug
+C020,Pant-Kadakia,Desk Booking,52.3,100.0,4,0,5138,3829,373,221,25.5,9.7,5.8,5,1.91,2,2,0,1,0,0,0,0,bug
+C020,Pant-Kadakia,QR Check-in,14.9,100.0,1,1,0,0,0,0,,,,48,18.32,14,1,2,0,1,11,19,0,hardware
+C021,"Loke, Bora and Garg",Desk Booking,13.8,100.0,1,1,5329,3961,381,221,25.7,9.6,5.6,9,1.29,2,4,1,0,0,2,0,0,bug
+C021,"Loke, Bora and Garg",Meeting Room Booking,10.2,100.0,1,1,2051,1353,158,96,34.0,11.7,7.1,10,1.43,3,2,0,2,0,1,2,0,how_to
+C022,"Konda, Gade and Shere",Attendance Policy,22.1,100.0,2,0,951,487,56,0,48.8,11.5,0.0,5,1.79,2,1,0,1,0,1,0,0,how_to
+C022,"Konda, Gade and Shere",Desk Booking,30.0,100.0,2,0,4154,3191,352,176,23.2,11.0,5.5,8,2.86,1,1,2,2,0,1,1,0,access
+C022,"Konda, Gade and Shere",Meeting Room Booking,20.0,100.0,3,0,1406,906,103,68,35.6,11.4,7.5,7,2.5,1,4,1,0,0,0,1,0,bug
+C022,"Konda, Gade and Shere",Parking,15.7,100.0,2,0,1792,1432,116,59,20.1,8.1,4.1,4,1.43,2,1,0,1,0,0,0,0,how_to
+C022,"Konda, Gade and Shere",Visitor Management,5.4,100.0,1,1,180,156,16,2,13.3,10.3,1.3,4,1.43,2,0,0,1,1,0,0,0,how_to
+C023,Madan-Kanda,Attendance Policy,18.5,100.0,1,1,987,496,40,0,49.7,8.1,0.0,8,1.98,1,3,1,1,2,0,0,0,bug
+C023,Madan-Kanda,Desk Booking,28.4,100.0,2,0,4399,3305,318,156,24.9,9.6,4.7,9,2.22,2,4,3,0,0,0,0,0,bug
+C023,Madan-Kanda,Meeting Room Booking,15.8,100.0,2,0,1714,1090,145,78,36.4,13.3,7.2,7,1.73,4,2,1,0,0,0,0,0,how_to
+C024,"Nair, Bhalla and Karnik",Desk Booking,22.0,62.4,1,1,8166,6129,613,339,24.9,10.0,5.5,10,0.75,4,2,3,1,0,0,0,0,how_to
+C024,"Nair, Bhalla and Karnik",Meeting Room Booking,23.0,100.0,4,0,4053,2639,316,167,34.9,12.0,6.3,11,0.82,2,1,2,2,2,0,0,2,access
+C024,"Nair, Bhalla and Karnik",Parking,17.8,100.0,3,0,5124,4153,316,179,19.0,7.6,4.3,8,0.6,2,2,1,0,0,1,2,0,bug
+C024,"Nair, Bhalla and Karnik",QR Check-in,30.9,100.0,3,0,0,0,0,0,,,,10,0.75,6,2,2,0,0,0,0,0,how_to
+C024,"Nair, Bhalla and Karnik",Visitor Management,6.5,100.0,2,0,418,355,33,16,15.1,9.3,4.5,17,1.27,6,3,3,1,2,1,0,1,how_to
+C025,Mutti Group,Attendance Policy,25.3,100.0,3,0,1654,841,90,0,49.2,10.7,0.0,11,2.68,5,1,1,2,0,1,1,0,how_to
+C025,Mutti Group,Desk Booking,33.3,100.0,3,0,5904,4438,417,224,24.8,9.4,5.0,8,1.95,4,1,1,1,0,1,0,0,how_to
+C025,Mutti Group,Meeting Room Booking,21.7,100.0,3,0,2160,1415,162,106,34.5,11.4,7.5,9,2.19,4,1,0,1,1,0,2,0,how_to
+C025,Mutti Group,QR Check-in,28.5,100.0,2,0,0,0,0,0,,,,6,1.46,2,2,1,0,1,0,0,0,bug
+C026,Bhatti-Kakar,Attendance Policy,30.5,100.0,4,0,3827,1945,191,0,49.2,9.8,0.0,7,0.79,2,0,0,1,3,0,0,1,integration
+C026,Bhatti-Kakar,Desk Booking,41.7,100.0,4,0,17829,13413,1282,763,24.8,9.6,5.7,9,1.02,6,1,0,0,1,0,1,0,how_to
+C026,Bhatti-Kakar,Meeting Room Booking,19.9,100.0,3,0,5683,3666,477,398,35.5,13.0,10.9,12,1.36,5,3,2,1,1,0,0,0,how_to
+C026,Bhatti-Kakar,Parking,21.1,100.0,4,0,6532,5227,447,251,20.0,8.6,4.8,12,1.36,4,3,2,2,1,0,0,0,how_to
+C026,Bhatti-Kakar,QR Check-in,36.6,100.0,4,0,0,0,0,0,,,,9,1.02,3,1,3,0,2,0,0,0,access
+C026,Bhatti-Kakar,Visitor Management,10.2,100.0,4,0,872,747,68,40,14.3,9.1,5.4,7,0.79,1,2,1,2,0,1,0,0,bug
+C027,"Murty, Kala and Tata",Attendance Policy,18.6,100.0,1,1,930,459,44,0,50.6,9.6,0.0,7,2.55,1,1,0,0,2,2,0,1,configuration
+C027,"Murty, Kala and Tata",Desk Booking,27.7,100.0,1,1,3434,2602,255,140,24.2,9.8,5.4,4,1.46,0,1,1,0,0,1,0,1,access
+C027,"Murty, Kala and Tata",Meeting Room Booking,17.9,100.0,2,0,1230,797,91,55,35.2,11.4,6.9,7,2.55,3,1,1,0,1,1,0,0,how_to
+C027,"Murty, Kala and Tata",Parking,12.4,100.0,2,0,1423,1139,107,37,20.0,9.4,3.2,5,1.82,2,1,0,0,0,2,0,0,configuration
+C027,"Murty, Kala and Tata",QR Check-in,24.8,100.0,1,1,0,0,0,0,,,,8,2.92,1,0,1,2,2,2,0,0,configuration
+C027,"Murty, Kala and Tata",Visitor Management,4.7,100.0,1,1,202,174,20,9,13.9,11.5,5.2,6,2.19,2,2,0,0,0,1,0,1,bug
+C028,Shanker-Dhar,Attendance Policy,19.5,100.0,1,1,1607,798,94,0,50.3,11.8,0.0,8,1.75,1,4,1,1,0,1,0,0,bug
+C028,Shanker-Dhar,Desk Booking,29.5,100.0,2,0,6044,4595,467,264,24.0,10.2,5.7,10,2.19,4,5,0,0,1,0,0,0,bug
+C028,Shanker-Dhar,Meeting Room Booking,16.4,100.0,2,0,2213,1439,178,119,35.0,12.4,8.3,6,1.31,3,2,0,0,0,1,0,0,how_to
+C028,Shanker-Dhar,Visitor Management,5.9,100.0,1,1,413,351,29,19,15.0,8.3,5.4,7,1.53,2,1,1,0,2,1,0,0,how_to
+C029,Dewan-Koshy,Desk Booking,12.5,100.0,1,1,1410,1070,108,42,24.1,10.1,3.9,5,1.85,1,1,1,0,0,2,0,0,configuration
+C029,Dewan-Koshy,Meeting Room Booking,9.2,100.0,1,1,549,342,50,24,37.7,14.6,7.0,5,1.85,1,1,0,0,1,2,0,0,configuration
+C029,Dewan-Koshy,Parking,7.7,100.0,1,1,741,602,54,22,18.8,9.0,3.7,12,4.43,7,1,1,1,1,1,0,0,how_to
+C030,"Yohannan, Lall and Sangha",Attendance Policy,30.0,100.0,4,0,1586,817,75,0,48.5,9.2,0.0,14,3.37,1,9,2,0,1,0,1,0,bug
+C030,"Yohannan, Lall and Sangha",Desk Booking,37.0,100.0,3,0,6341,4764,440,280,24.9,9.2,5.9,9,2.16,4,4,1,0,0,0,0,0,bug
+C030,"Yohannan, Lall and Sangha",Meeting Room Booking,20.2,100.0,3,0,2234,1484,177,115,33.6,11.9,7.7,17,4.09,7,4,3,2,0,1,0,0,how_to
+C030,"Yohannan, Lall and Sangha",QR Check-in,32.7,100.0,3,0,0,0,0,0,,,,10,2.4,4,2,4,0,0,0,0,0,access
+C030,"Yohannan, Lall and Sangha",Visitor Management,6.5,100.0,2,0,413,351,26,15,15.0,7.4,4.3,22,5.29,5,11,6,0,0,0,0,0,bug
+C031,"Rastogi, Pathak and Kanda",Desk Booking,21.8,53.3,1,1,4993,3736,397,201,25.2,10.6,5.4,34,3.58,7,2,13,11,0,0,1,0,access
+C031,"Rastogi, Pathak and Kanda",Meeting Room Booking,23.4,100.0,4,0,3459,2262,265,155,34.6,11.7,6.9,13,1.37,3,2,3,2,0,2,1,0,access
+C031,"Rastogi, Pathak and Kanda",Parking,20.4,100.0,4,0,3755,2953,254,133,21.4,8.6,4.5,12,1.26,4,3,2,3,0,0,0,0,how_to
+C031,"Rastogi, Pathak and Kanda",QR Check-in,36.2,100.0,4,0,0,0,0,0,,,,10,1.05,5,2,2,0,1,0,0,0,how_to
+C031,"Rastogi, Pathak and Kanda",Visitor Management,6.9,100.0,2,0,342,287,14,14,16.1,4.9,4.9,12,1.26,2,3,0,3,1,3,0,0,bug
+C032,Upadhyay Group,Attendance Policy,20.4,100.0,2,0,487,246,22,0,49.5,8.9,0.0,8,5.1,1,1,3,1,1,1,0,0,access
+C032,Upadhyay Group,Desk Booking,28.0,100.0,2,0,1695,1276,131,78,24.7,10.3,6.1,5,3.18,1,1,2,0,0,0,0,1,access
+C032,Upadhyay Group,Meeting Room Booking,14.0,100.0,1,1,532,349,48,21,34.4,13.8,6.0,10,6.37,3,3,0,0,2,1,0,1,bug
+C032,Upadhyay Group,QR Check-in,24.8,100.0,2,0,0,0,0,0,,,,8,5.1,3,1,0,0,1,2,1,0,how_to
+C033,Batta Inc,Attendance Policy,24.6,100.0,3,0,1680,844,94,0,49.8,11.1,0.0,7,0.98,0,3,2,1,0,1,0,0,bug
+C033,Batta Inc,Desk Booking,37.2,100.0,4,0,7276,5491,532,331,24.5,9.7,6.0,11,1.54,2,4,3,0,1,1,0,0,bug
+C033,Batta Inc,Meeting Room Booking,20.7,100.0,3,0,2652,1684,196,121,36.5,11.6,7.2,9,1.26,3,2,2,1,0,0,0,1,how_to
+C033,Batta Inc,QR Check-in,35.6,100.0,3,0,0,0,0,0,,,,12,1.68,2,3,3,1,3,0,0,0,access
+C033,Batta Inc,Visitor Management,7.1,100.0,3,0,370,308,26,12,16.8,8.4,3.9,2,0.28,0,0,0,2,0,0,0,0,feature_request
+C034,Dutta Ltd,Desk Booking,28.4,100.0,2,0,7532,5600,538,258,25.7,9.6,4.6,10,1.61,1,2,0,0,2,4,0,1,configuration
+C035,Bhatt-Rajan,Desk Booking,38.5,100.0,4,0,3741,2773,265,172,25.9,9.6,6.2,10,2.87,1,4,3,0,1,1,0,0,bug
+C035,Bhatt-Rajan,Meeting Room Booking,23.6,100.0,4,0,1230,778,77,46,36.7,9.9,5.9,3,0.86,2,0,0,1,0,0,0,0,how_to
+C035,Bhatt-Rajan,Parking,17.2,100.0,3,0,1435,1157,91,57,19.4,7.9,4.9,1,0.29,0,1,0,0,0,0,0,0,bug
+C036,Sidhu-Wadhwa,Desk Booking,20.4,100.0,1,1,796,593,58,36,25.5,9.8,6.1,3,1.57,1,0,0,1,1,0,0,0,feature_request
+C036,Sidhu-Wadhwa,Parking,9.9,100.0,1,1,458,366,24,16,20.1,6.6,4.4,6,3.14,2,2,1,1,0,0,0,0,bug
+C036,Sidhu-Wadhwa,QR Check-in,17.3,100.0,1,1,0,0,0,0,,,,4,2.09,2,1,0,1,0,0,0,0,how_to
+C037,Apte-Contractor,Desk Booking,21.4,100.0,1,1,6023,4522,459,255,24.9,10.2,5.6,6,1.08,2,1,1,0,0,1,0,1,how_to
+C037,Apte-Contractor,Meeting Room Booking,13.2,100.0,1,1,2362,1515,191,111,35.9,12.6,7.3,11,1.98,0,5,1,3,1,1,0,0,bug
+C038,"Yadav, Loke and Oak",Desk Booking,42.6,100.0,4,0,7715,5747,584,327,25.5,10.2,5.7,14,3.85,1,7,3,0,1,1,1,0,bug
+C038,"Yadav, Loke and Oak",Meeting Room Booking,11.5,100.0,1,1,1193,766,95,235,35.8,12.4,30.7,47,12.91,9,9,2,0,27,0,0,0,integration
+C038,"Yadav, Loke and Oak",QR Check-in,40.4,100.0,4,0,0,0,0,0,,,,7,1.92,2,1,0,0,0,4,0,0,configuration
+C039,Memon Group,Attendance Policy,22.1,100.0,2,0,1328,674,65,0,49.2,9.6,0.0,5,0.81,0,4,0,0,1,0,0,0,bug
+C039,Memon Group,Desk Booking,28.3,100.0,2,0,6147,4629,428,266,24.7,9.2,5.7,8,1.29,3,3,1,1,0,0,0,0,bug
+C039,Memon Group,Meeting Room Booking,18.5,100.0,2,0,2030,1380,174,96,32.0,12.6,7.0,9,1.45,2,3,1,2,0,1,0,0,bug
+C039,Memon Group,QR Check-in,23.3,100.0,1,1,0,0,0,0,,,,6,0.97,1,3,0,1,1,0,0,0,bug
+C040,Setty Inc,Attendance Policy,20.7,100.0,2,0,1721,860,68,0,50.0,7.9,0.0,5,0.93,1,0,1,2,1,0,0,0,feature_request
+C040,Setty Inc,Desk Booking,25.2,100.0,1,1,6959,3796,377,207,45.5,9.9,5.5,6,1.12,2,1,2,0,1,0,0,0,access
+C040,Setty Inc,Meeting Room Booking,17.4,100.0,2,0,2313,1503,174,81,35.0,11.6,5.4,6,1.12,1,0,3,0,0,2,0,0,access
+C040,Setty Inc,QR Check-in,25.0,100.0,2,0,0,0,0,0,,,,2,0.37,0,1,0,0,1,0,0,0,bug
+C040,Setty Inc,Visitor Management,5.2,100.0,1,1,387,322,24,10,16.8,7.5,3.1,11,2.05,3,1,3,0,1,3,0,0,access

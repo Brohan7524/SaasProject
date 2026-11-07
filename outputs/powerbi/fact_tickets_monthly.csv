@@ -1,0 +1,1243 @@
+client_id,feature,category,month,tickets
+C001,Desk Booking,access,2025-06-01,1
+C001,Desk Booking,bug,2025-03-01,2
+C001,Desk Booking,bug,2025-06-01,1
+C001,Desk Booking,how_to,2025-03-01,2
+C001,Desk Booking,how_to,2025-04-01,2
+C001,Desk Booking,how_to,2025-11-01,1
+C001,Desk Booking,integration,2025-03-01,1
+C001,Desk Booking,integration,2025-05-01,1
+C001,Meeting Room Booking,access,2025-08-01,1
+C001,Meeting Room Booking,access,2025-10-01,1
+C001,Meeting Room Booking,bug,2025-04-01,2
+C001,Meeting Room Booking,feature_request,2025-07-01,1
+C001,Meeting Room Booking,feature_request,2025-10-01,1
+C001,Meeting Room Booking,how_to,2025-08-01,1
+C001,Meeting Room Booking,how_to,2025-09-01,1
+C001,QR Check-in,access,2025-07-01,1
+C001,QR Check-in,access,2025-08-01,1
+C001,QR Check-in,access,2025-12-01,1
+C001,QR Check-in,bug,2025-07-01,1
+C001,QR Check-in,feature_request,2025-07-01,1
+C001,QR Check-in,feature_request,2025-09-01,1
+C001,QR Check-in,feature_request,2025-12-01,1
+C001,QR Check-in,how_to,2025-10-01,1
+C001,QR Check-in,integration,2025-07-01,1
+C001,QR Check-in,integration,2025-08-01,1
+C001,Visitor Management,access,2025-05-01,1
+C001,Visitor Management,bug,2025-04-01,1
+C001,Visitor Management,bug,2025-08-01,2
+C001,Visitor Management,bug,2025-12-01,1
+C001,Visitor Management,hardware,2025-04-01,1
+C001,Visitor Management,how_to,2025-06-01,2
+C001,Visitor Management,how_to,2025-10-01,1
+C001,Visitor Management,integration,2025-05-01,1
+C002,Attendance Policy,configuration,2025-11-01,1
+C002,Attendance Policy,feature_request,2025-02-01,1
+C002,Attendance Policy,how_to,2025-06-01,1
+C002,Attendance Policy,how_to,2025-08-01,1
+C002,Attendance Policy,how_to,2025-09-01,1
+C002,Attendance Policy,integration,2025-09-01,1
+C002,Desk Booking,access,2025-05-01,1
+C002,Desk Booking,bug,2025-01-01,1
+C002,Desk Booking,configuration,2025-08-01,1
+C002,Desk Booking,how_to,2025-01-01,2
+C002,Desk Booking,how_to,2025-02-01,2
+C002,Desk Booking,how_to,2025-03-01,1
+C002,Desk Booking,how_to,2025-05-01,1
+C002,Desk Booking,policy_restriction,2025-03-01,1
+C002,Meeting Room Booking,access,2025-05-01,1
+C002,Meeting Room Booking,access,2025-12-01,1
+C002,Meeting Room Booking,bug,2025-01-01,1
+C002,Meeting Room Booking,bug,2025-02-01,1
+C002,Meeting Room Booking,bug,2025-11-01,1
+C002,Meeting Room Booking,feature_request,2025-12-01,1
+C002,Meeting Room Booking,policy_restriction,2025-05-01,1
+C002,Parking,access,2025-12-01,1
+C002,Parking,bug,2025-03-01,2
+C002,Parking,bug,2025-08-01,1
+C002,Parking,feature_request,2025-08-01,1
+C002,Parking,how_to,2025-01-01,1
+C002,Parking,how_to,2025-02-01,1
+C002,Parking,integration,2025-02-01,1
+C002,QR Check-in,access,2025-03-01,1
+C002,QR Check-in,access,2025-04-01,1
+C002,QR Check-in,access,2025-07-01,1
+C002,QR Check-in,configuration,2025-07-01,1
+C002,QR Check-in,how_to,2025-04-01,1
+C002,QR Check-in,how_to,2025-05-01,1
+C002,QR Check-in,how_to,2025-06-01,1
+C002,QR Check-in,integration,2025-03-01,1
+C002,Visitor Management,access,2025-03-01,1
+C002,Visitor Management,bug,2025-06-01,1
+C002,Visitor Management,bug,2025-09-01,1
+C002,Visitor Management,configuration,2025-06-01,1
+C002,Visitor Management,how_to,2025-03-01,1
+C002,Visitor Management,how_to,2025-06-01,1
+C002,Visitor Management,how_to,2025-10-01,1
+C002,Visitor Management,integration,2025-04-01,1
+C003,Attendance Policy,access,2025-02-01,1
+C003,Attendance Policy,access,2025-09-01,1
+C003,Attendance Policy,bug,2025-01-01,1
+C003,Attendance Policy,bug,2025-03-01,2
+C003,Attendance Policy,bug,2025-04-01,1
+C003,Attendance Policy,how_to,2025-05-01,1
+C003,Attendance Policy,how_to,2025-06-01,2
+C003,Attendance Policy,integration,2025-03-01,1
+C003,Desk Booking,bug,2025-02-01,1
+C003,Desk Booking,bug,2025-08-01,1
+C003,Desk Booking,configuration,2025-05-01,1
+C003,Desk Booking,feature_request,2025-04-01,1
+C003,Desk Booking,feature_request,2025-07-01,1
+C003,Desk Booking,how_to,2025-01-01,1
+C003,Desk Booking,how_to,2025-04-01,2
+C003,Desk Booking,how_to,2025-07-01,1
+C003,Meeting Room Booking,bug,2025-02-01,1
+C003,Meeting Room Booking,bug,2025-10-01,2
+C003,Meeting Room Booking,feature_request,2025-07-01,1
+C003,Meeting Room Booking,feature_request,2025-08-01,1
+C003,Meeting Room Booking,how_to,2025-01-01,1
+C003,Meeting Room Booking,how_to,2025-09-01,1
+C003,Meeting Room Booking,how_to,2025-11-01,1
+C003,Meeting Room Booking,integration,2025-06-01,1
+C003,Parking,access,2025-03-01,1
+C003,Parking,configuration,2025-05-01,1
+C003,QR Check-in,bug,2025-02-01,1
+C003,QR Check-in,bug,2025-05-01,1
+C003,QR Check-in,configuration,2025-06-01,1
+C003,QR Check-in,feature_request,2025-11-01,1
+C004,Desk Booking,bug,2025-09-01,1
+C004,Desk Booking,feature_request,2025-09-01,1
+C004,Desk Booking,how_to,2025-02-01,1
+C004,Meeting Room Booking,access,2025-04-01,1
+C004,Meeting Room Booking,access,2025-05-01,1
+C004,Meeting Room Booking,access,2025-09-01,1
+C004,Meeting Room Booking,bug,2025-01-01,1
+C004,Meeting Room Booking,bug,2025-11-01,1
+C004,Meeting Room Booking,configuration,2025-02-01,1
+C004,Meeting Room Booking,how_to,2025-12-01,1
+C004,QR Check-in,bug,2025-03-01,1
+C004,QR Check-in,bug,2025-06-01,1
+C004,QR Check-in,bug,2025-12-01,1
+C004,QR Check-in,how_to,2025-03-01,1
+C004,QR Check-in,how_to,2025-04-01,1
+C004,QR Check-in,how_to,2025-05-01,1
+C004,QR Check-in,how_to,2025-08-01,1
+C004,Visitor Management,bug,2025-12-01,1
+C004,Visitor Management,configuration,2025-09-01,1
+C004,Visitor Management,how_to,2025-04-01,2
+C004,Visitor Management,how_to,2025-06-01,1
+C004,Visitor Management,integration,2025-08-01,1
+C005,Attendance Policy,hardware,2025-02-01,1
+C005,Attendance Policy,how_to,2025-02-01,1
+C005,Attendance Policy,how_to,2025-08-01,1
+C005,Attendance Policy,integration,2025-01-01,1
+C005,Desk Booking,bug,2025-03-01,1
+C005,Desk Booking,configuration,2025-01-01,1
+C005,Desk Booking,configuration,2025-04-01,1
+C005,Desk Booking,configuration,2025-06-01,1
+C005,Desk Booking,feature_request,2025-09-01,1
+C005,Desk Booking,how_to,2025-07-01,1
+C005,Meeting Room Booking,access,2025-05-01,1
+C005,Meeting Room Booking,bug,2025-01-01,1
+C005,Meeting Room Booking,bug,2025-02-01,1
+C005,Meeting Room Booking,bug,2025-03-01,1
+C005,Meeting Room Booking,bug,2025-04-01,1
+C005,Meeting Room Booking,bug,2025-05-01,2
+C005,Meeting Room Booking,bug,2025-06-01,1
+C005,Meeting Room Booking,bug,2025-07-01,2
+C005,Meeting Room Booking,bug,2025-08-01,1
+C005,Meeting Room Booking,bug,2025-10-01,1
+C005,Meeting Room Booking,bug,2025-11-01,3
+C005,Meeting Room Booking,bug,2025-12-01,2
+C005,Meeting Room Booking,configuration,2025-03-01,1
+C005,Meeting Room Booking,feature_request,2025-02-01,1
+C005,Meeting Room Booking,feature_request,2025-07-01,1
+C005,Meeting Room Booking,feature_request,2025-08-01,1
+C005,Meeting Room Booking,how_to,2025-02-01,1
+C005,Meeting Room Booking,how_to,2025-04-01,1
+C005,Meeting Room Booking,how_to,2025-05-01,1
+C005,Meeting Room Booking,how_to,2025-08-01,1
+C005,Meeting Room Booking,how_to,2025-09-01,2
+C005,Meeting Room Booking,integration,2025-01-01,3
+C005,Meeting Room Booking,integration,2025-02-01,2
+C005,Meeting Room Booking,integration,2025-03-01,3
+C005,Meeting Room Booking,integration,2025-04-01,2
+C005,Meeting Room Booking,integration,2025-05-01,1
+C005,Meeting Room Booking,integration,2025-06-01,2
+C005,Meeting Room Booking,integration,2025-07-01,1
+C005,Meeting Room Booking,integration,2025-08-01,1
+C005,Meeting Room Booking,integration,2025-09-01,1
+C005,Meeting Room Booking,integration,2025-10-01,1
+C005,Meeting Room Booking,integration,2025-11-01,3
+C005,Meeting Room Booking,integration,2025-12-01,2
+C006,Attendance Policy,access,2025-08-01,1
+C006,Attendance Policy,bug,2025-07-01,1
+C006,Attendance Policy,bug,2025-10-01,1
+C006,Attendance Policy,configuration,2025-05-01,2
+C006,Attendance Policy,feature_request,2025-02-01,1
+C006,Attendance Policy,how_to,2025-01-01,3
+C006,Desk Booking,access,2025-08-01,1
+C006,Desk Booking,bug,2025-09-01,1
+C006,Desk Booking,how_to,2025-05-01,1
+C006,Desk Booking,integration,2025-06-01,1
+C006,Meeting Room Booking,access,2025-01-01,1
+C006,Meeting Room Booking,bug,2025-04-01,1
+C006,Meeting Room Booking,how_to,2025-01-01,1
+C006,Meeting Room Booking,integration,2025-01-01,1
+C006,Meeting Room Booking,integration,2025-09-01,1
+C006,Parking,bug,2025-04-01,1
+C006,Parking,bug,2025-05-01,1
+C006,Parking,bug,2025-08-01,1
+C006,Parking,bug,2025-09-01,2
+C006,Parking,bug,2025-11-01,3
+C006,Parking,configuration,2025-02-01,5
+C006,Parking,configuration,2025-03-01,6
+C006,Parking,configuration,2025-04-01,3
+C006,Parking,configuration,2025-05-01,2
+C006,Parking,configuration,2025-06-01,2
+C006,Parking,configuration,2025-07-01,2
+C006,Parking,configuration,2025-09-01,1
+C006,Parking,configuration,2025-10-01,2
+C006,Parking,configuration,2025-11-01,1
+C006,Parking,hardware,2025-02-01,1
+C006,Parking,how_to,2025-02-01,1
+C006,Parking,how_to,2025-03-01,2
+C006,Parking,how_to,2025-04-01,3
+C006,Parking,how_to,2025-05-01,1
+C006,Parking,how_to,2025-07-01,1
+C006,Parking,how_to,2025-08-01,2
+C006,Parking,how_to,2025-10-01,1
+C006,Parking,how_to,2025-11-01,3
+C006,Parking,how_to,2025-12-01,1
+C006,QR Check-in,access,2025-08-01,3
+C006,QR Check-in,access,2025-10-01,1
+C006,QR Check-in,access,2025-11-01,1
+C006,QR Check-in,bug,2025-04-01,1
+C006,QR Check-in,bug,2025-06-01,1
+C006,QR Check-in,feature_request,2025-09-01,1
+C006,QR Check-in,how_to,2025-03-01,1
+C006,QR Check-in,how_to,2025-06-01,1
+C006,QR Check-in,how_to,2025-11-01,1
+C006,Visitor Management,how_to,2025-02-01,1
+C006,Visitor Management,how_to,2025-03-01,1
+C007,Attendance Policy,feature_request,2025-05-01,2
+C007,Attendance Policy,feature_request,2025-06-01,2
+C007,Attendance Policy,feature_request,2025-07-01,1
+C007,Attendance Policy,feature_request,2025-08-01,1
+C007,Attendance Policy,feature_request,2025-09-01,1
+C007,Attendance Policy,feature_request,2025-10-01,2
+C007,Attendance Policy,feature_request,2025-12-01,1
+C007,Attendance Policy,how_to,2025-03-01,1
+C007,Attendance Policy,how_to,2025-05-01,4
+C007,Attendance Policy,how_to,2025-07-01,1
+C007,Attendance Policy,how_to,2025-08-01,1
+C007,Attendance Policy,how_to,2025-09-01,2
+C007,Attendance Policy,how_to,2025-10-01,1
+C007,Attendance Policy,policy_restriction,2025-03-01,3
+C007,Attendance Policy,policy_restriction,2025-04-01,5
+C007,Attendance Policy,policy_restriction,2025-05-01,1
+C007,Attendance Policy,policy_restriction,2025-07-01,1
+C007,Attendance Policy,policy_restriction,2025-08-01,2
+C007,Attendance Policy,policy_restriction,2025-09-01,2
+C007,Attendance Policy,policy_restriction,2025-10-01,4
+C007,Attendance Policy,policy_restriction,2025-11-01,3
+C007,Attendance Policy,policy_restriction,2025-12-01,3
+C007,Desk Booking,access,2025-05-01,1
+C007,Desk Booking,access,2025-07-01,1
+C007,Desk Booking,bug,2025-09-01,3
+C007,Desk Booking,how_to,2025-08-01,1
+C007,Meeting Room Booking,access,2025-07-01,2
+C007,Meeting Room Booking,bug,2025-04-01,1
+C007,Meeting Room Booking,bug,2025-05-01,1
+C007,Meeting Room Booking,bug,2025-11-01,1
+C007,Meeting Room Booking,configuration,2025-04-01,1
+C007,Meeting Room Booking,how_to,2025-03-01,1
+C007,Meeting Room Booking,how_to,2025-04-01,1
+C007,Meeting Room Booking,how_to,2025-08-01,1
+C007,Meeting Room Booking,how_to,2025-10-01,1
+C007,Meeting Room Booking,integration,2025-04-01,1
+C007,Parking,bug,2025-06-01,1
+C007,Parking,bug,2025-07-01,1
+C007,Parking,configuration,2025-05-01,1
+C007,Parking,feature_request,2025-06-01,1
+C007,Parking,how_to,2025-05-01,1
+C007,Parking,integration,2025-10-01,1
+C007,QR Check-in,bug,2025-05-01,1
+C007,QR Check-in,bug,2025-09-01,1
+C007,QR Check-in,how_to,2025-08-01,1
+C007,QR Check-in,how_to,2025-09-01,1
+C007,Visitor Management,access,2025-07-01,1
+C007,Visitor Management,access,2025-09-01,1
+C007,Visitor Management,hardware,2025-10-01,1
+C007,Visitor Management,how_to,2025-07-01,3
+C008,Desk Booking,bug,2025-03-01,2
+C008,Desk Booking,feature_request,2025-09-01,1
+C008,Desk Booking,feature_request,2025-12-01,1
+C008,Desk Booking,how_to,2025-04-01,1
+C008,Desk Booking,how_to,2025-07-01,1
+C008,Desk Booking,integration,2025-06-01,1
+C008,Desk Booking,policy_restriction,2025-05-01,1
+C008,Meeting Room Booking,access,2025-05-01,1
+C008,Meeting Room Booking,bug,2025-05-01,1
+C008,Meeting Room Booking,configuration,2025-05-01,1
+C008,Meeting Room Booking,how_to,2025-04-01,1
+C008,Meeting Room Booking,how_to,2025-08-01,1
+C008,Meeting Room Booking,how_to,2025-09-01,1
+C008,Parking,access,2025-05-01,1
+C008,Parking,access,2025-06-01,1
+C008,Parking,access,2025-08-01,1
+C008,Parking,bug,2025-06-01,1
+C008,Parking,configuration,2025-05-01,1
+C008,Parking,hardware,2025-04-01,1
+C008,Parking,how_to,2025-05-01,1
+C008,Parking,how_to,2025-12-01,1
+C008,Parking,integration,2025-06-01,1
+C008,Parking,policy_restriction,2025-05-01,1
+C008,Parking,policy_restriction,2025-07-01,1
+C009,Attendance Policy,access,2025-07-01,2
+C009,Attendance Policy,access,2025-12-01,1
+C009,Attendance Policy,bug,2025-07-01,1
+C009,Attendance Policy,bug,2025-10-01,1
+C009,Attendance Policy,feature_request,2025-07-01,2
+C009,Attendance Policy,feature_request,2025-08-01,4
+C009,Attendance Policy,feature_request,2025-09-01,1
+C009,Attendance Policy,feature_request,2025-11-01,2
+C009,Attendance Policy,feature_request,2025-12-01,1
+C009,Attendance Policy,how_to,2025-06-01,1
+C009,Attendance Policy,how_to,2025-07-01,2
+C009,Attendance Policy,how_to,2025-08-01,3
+C009,Attendance Policy,how_to,2025-12-01,1
+C009,Attendance Policy,integration,2025-07-01,1
+C009,Attendance Policy,policy_restriction,2025-07-01,3
+C009,Attendance Policy,policy_restriction,2025-08-01,3
+C009,Attendance Policy,policy_restriction,2025-09-01,2
+C009,Attendance Policy,policy_restriction,2025-10-01,2
+C009,Attendance Policy,policy_restriction,2025-11-01,2
+C009,Attendance Policy,policy_restriction,2025-12-01,6
+C009,Desk Booking,bug,2025-12-01,1
+C009,Desk Booking,feature_request,2025-09-01,1
+C009,Desk Booking,how_to,2025-11-01,2
+C009,Desk Booking,policy_restriction,2025-12-01,1
+C009,Meeting Room Booking,access,2025-06-01,1
+C009,Meeting Room Booking,bug,2025-08-01,1
+C009,Meeting Room Booking,bug,2025-12-01,1
+C009,Meeting Room Booking,configuration,2025-06-01,1
+C009,Meeting Room Booking,feature_request,2025-08-01,1
+C009,Meeting Room Booking,how_to,2025-07-01,1
+C009,Meeting Room Booking,integration,2025-07-01,1
+C009,QR Check-in,access,2025-11-01,1
+C009,QR Check-in,bug,2025-07-01,1
+C009,QR Check-in,bug,2025-12-01,1
+C009,QR Check-in,feature_request,2025-12-01,1
+C009,QR Check-in,how_to,2025-07-01,1
+C009,QR Check-in,how_to,2025-08-01,1
+C009,QR Check-in,how_to,2025-12-01,1
+C009,Visitor Management,access,2025-09-01,1
+C009,Visitor Management,access,2025-11-01,1
+C009,Visitor Management,bug,2025-10-01,2
+C009,Visitor Management,bug,2025-12-01,1
+C009,Visitor Management,feature_request,2025-09-01,1
+C009,Visitor Management,feature_request,2025-11-01,1
+C009,Visitor Management,how_to,2025-09-01,1
+C009,Visitor Management,how_to,2025-10-01,1
+C009,Visitor Management,how_to,2025-11-01,3
+C010,Attendance Policy,bug,2025-08-01,1
+C010,Attendance Policy,configuration,2025-12-01,1
+C010,Attendance Policy,feature_request,2025-12-01,1
+C010,Attendance Policy,how_to,2025-06-01,1
+C010,Attendance Policy,how_to,2025-10-01,1
+C010,Desk Booking,access,2025-05-01,1
+C010,Desk Booking,access,2025-07-01,1
+C010,Desk Booking,bug,2025-10-01,1
+C010,Desk Booking,bug,2025-11-01,1
+C010,Desk Booking,bug,2025-12-01,1
+C010,Desk Booking,how_to,2025-05-01,1
+C010,Desk Booking,how_to,2025-12-01,1
+C010,Parking,access,2025-07-01,2
+C010,Parking,access,2025-09-01,1
+C010,Parking,feature_request,2025-12-01,1
+C010,Parking,hardware,2025-10-01,1
+C010,Parking,how_to,2025-05-01,1
+C010,Parking,how_to,2025-06-01,1
+C010,Parking,how_to,2025-07-01,1
+C010,Parking,how_to,2025-10-01,1
+C010,Parking,integration,2025-07-01,1
+C011,Desk Booking,access,2025-06-01,1
+C011,Desk Booking,access,2025-10-01,2
+C011,Desk Booking,access,2025-11-01,1
+C011,Desk Booking,access,2025-12-01,1
+C011,Desk Booking,bug,2025-02-01,1
+C011,Desk Booking,bug,2025-04-01,1
+C011,Desk Booking,bug,2025-10-01,3
+C011,Desk Booking,bug,2025-11-01,1
+C011,Desk Booking,bug,2025-12-01,3
+C011,Desk Booking,configuration,2025-04-01,1
+C011,Desk Booking,hardware,2025-06-01,1
+C011,Desk Booking,hardware,2025-09-01,1
+C011,Desk Booking,how_to,2025-10-01,1
+C011,Desk Booking,how_to,2025-12-01,2
+C011,Desk Booking,policy_restriction,2025-10-01,1
+C011,QR Check-in,access,2025-07-01,1
+C011,QR Check-in,access,2025-10-01,3
+C011,QR Check-in,access,2025-11-01,4
+C011,QR Check-in,access,2025-12-01,1
+C011,QR Check-in,bug,2025-07-01,1
+C011,QR Check-in,bug,2025-09-01,1
+C011,QR Check-in,bug,2025-11-01,2
+C011,QR Check-in,configuration,2025-10-01,1
+C011,QR Check-in,feature_request,2025-05-01,1
+C011,QR Check-in,feature_request,2025-07-01,1
+C011,QR Check-in,feature_request,2025-08-01,1
+C011,QR Check-in,how_to,2025-05-01,1
+C011,QR Check-in,how_to,2025-06-01,1
+C011,QR Check-in,how_to,2025-08-01,1
+C011,QR Check-in,how_to,2025-11-01,2
+C011,QR Check-in,how_to,2025-12-01,1
+C011,Visitor Management,access,2025-10-01,1
+C011,Visitor Management,access,2025-11-01,1
+C011,Visitor Management,access,2025-12-01,5
+C011,Visitor Management,bug,2025-09-01,1
+C011,Visitor Management,bug,2025-10-01,2
+C011,Visitor Management,bug,2025-11-01,2
+C011,Visitor Management,bug,2025-12-01,3
+C011,Visitor Management,configuration,2025-09-01,2
+C011,Visitor Management,how_to,2025-05-01,3
+C011,Visitor Management,how_to,2025-06-01,1
+C011,Visitor Management,how_to,2025-07-01,1
+C011,Visitor Management,how_to,2025-10-01,1
+C011,Visitor Management,how_to,2025-11-01,1
+C011,Visitor Management,how_to,2025-12-01,1
+C012,Desk Booking,access,2025-10-01,1
+C012,Desk Booking,bug,2025-09-01,1
+C012,Desk Booking,bug,2025-10-01,1
+C012,Desk Booking,configuration,2025-07-01,2
+C012,Desk Booking,configuration,2025-10-01,1
+C012,Desk Booking,feature_request,2025-12-01,1
+C012,Desk Booking,hardware,2025-06-01,1
+C012,Desk Booking,how_to,2025-08-01,1
+C012,Desk Booking,how_to,2025-12-01,1
+C012,Desk Booking,policy_restriction,2025-10-01,1
+C013,Attendance Policy,bug,2025-02-01,1
+C013,Attendance Policy,bug,2025-10-01,1
+C013,Attendance Policy,feature_request,2025-04-01,1
+C013,Attendance Policy,hardware,2025-10-01,1
+C013,Attendance Policy,integration,2025-04-01,1
+C013,Desk Booking,bug,2025-08-01,1
+C013,Desk Booking,bug,2025-12-01,1
+C013,Desk Booking,configuration,2025-10-01,1
+C013,Desk Booking,feature_request,2025-11-01,2
+C013,Desk Booking,hardware,2025-08-01,1
+C013,Desk Booking,how_to,2025-09-01,1
+C013,Desk Booking,how_to,2025-11-01,1
+C013,Desk Booking,integration,2025-05-01,1
+C013,Meeting Room Booking,access,2025-05-01,1
+C013,Meeting Room Booking,bug,2025-11-01,1
+C013,Meeting Room Booking,feature_request,2025-03-01,1
+C013,Meeting Room Booking,how_to,2025-05-01,2
+C013,Meeting Room Booking,how_to,2025-10-01,1
+C013,Meeting Room Booking,integration,2025-10-01,1
+C013,QR Check-in,access,2025-09-01,1
+C013,QR Check-in,bug,2025-05-01,1
+C013,QR Check-in,bug,2025-09-01,1
+C013,QR Check-in,how_to,2025-05-01,1
+C013,QR Check-in,how_to,2025-11-01,1
+C013,QR Check-in,integration,2025-05-01,1
+C013,QR Check-in,integration,2025-11-01,1
+C013,Visitor Management,access,2025-10-01,1
+C013,Visitor Management,bug,2025-05-01,1
+C013,Visitor Management,bug,2025-06-01,1
+C013,Visitor Management,bug,2025-08-01,1
+C013,Visitor Management,feature_request,2025-06-01,2
+C013,Visitor Management,how_to,2025-07-01,1
+C013,Visitor Management,how_to,2025-08-01,1
+C014,Attendance Policy,access,2025-03-01,1
+C014,Attendance Policy,bug,2025-04-01,2
+C014,Attendance Policy,bug,2025-05-01,1
+C014,Attendance Policy,feature_request,2025-03-01,1
+C014,Attendance Policy,how_to,2025-05-01,1
+C014,Attendance Policy,how_to,2025-08-01,1
+C014,Attendance Policy,how_to,2025-10-01,2
+C014,Attendance Policy,integration,2025-03-01,1
+C014,Attendance Policy,integration,2025-05-01,1
+C014,Attendance Policy,integration,2025-07-01,1
+C014,Desk Booking,access,2025-02-01,1
+C014,Desk Booking,how_to,2025-02-01,1
+C014,Desk Booking,how_to,2025-05-01,1
+C014,Desk Booking,how_to,2025-06-01,1
+C014,Desk Booking,how_to,2025-08-01,1
+C014,Meeting Room Booking,bug,2025-03-01,1
+C014,Meeting Room Booking,bug,2025-10-01,1
+C014,Meeting Room Booking,configuration,2025-03-01,1
+C014,Meeting Room Booking,feature_request,2025-08-01,1
+C014,Meeting Room Booking,how_to,2025-02-01,2
+C014,Meeting Room Booking,policy_restriction,2025-03-01,1
+C014,Visitor Management,bug,2025-03-01,1
+C014,Visitor Management,bug,2025-07-01,1
+C014,Visitor Management,feature_request,2025-07-01,1
+C014,Visitor Management,how_to,2025-03-01,2
+C014,Visitor Management,how_to,2025-06-01,1
+C014,Visitor Management,how_to,2025-08-01,1
+C014,Visitor Management,how_to,2025-12-01,1
+C015,Attendance Policy,bug,2025-12-01,1
+C015,Attendance Policy,configuration,2025-04-01,1
+C015,Attendance Policy,how_to,2025-04-01,1
+C015,Attendance Policy,how_to,2025-05-01,1
+C015,Attendance Policy,how_to,2025-06-01,1
+C015,Attendance Policy,how_to,2025-09-01,1
+C015,Attendance Policy,policy_restriction,2025-11-01,1
+C015,Desk Booking,bug,2025-04-01,1
+C015,Desk Booking,bug,2025-05-01,2
+C015,Desk Booking,bug,2025-09-01,1
+C015,Desk Booking,configuration,2025-10-01,2
+C015,Desk Booking,feature_request,2025-06-01,1
+C015,Desk Booking,how_to,2025-03-01,1
+C015,Desk Booking,how_to,2025-06-01,1
+C015,Desk Booking,how_to,2025-09-01,1
+C015,Desk Booking,how_to,2025-11-01,1
+C015,Desk Booking,integration,2025-02-01,1
+C015,Desk Booking,integration,2025-11-01,1
+C015,Parking,bug,2025-09-01,1
+C015,Parking,how_to,2025-07-01,1
+C015,Parking,how_to,2025-08-01,1
+C015,Parking,how_to,2025-09-01,2
+C015,Parking,integration,2025-04-01,1
+C016,Attendance Policy,access,2025-10-01,1
+C016,Attendance Policy,configuration,2025-06-01,1
+C016,Attendance Policy,how_to,2025-10-01,1
+C016,Attendance Policy,how_to,2025-12-01,2
+C016,Attendance Policy,policy_restriction,2025-07-01,1
+C016,Attendance Policy,policy_restriction,2025-08-01,1
+C016,Desk Booking,access,2025-06-01,1
+C016,Desk Booking,access,2025-12-01,1
+C016,Desk Booking,bug,2025-07-01,1
+C016,Desk Booking,how_to,2025-10-01,1
+C016,Desk Booking,how_to,2025-12-01,1
+C016,Meeting Room Booking,access,2025-05-01,1
+C016,Meeting Room Booking,access,2025-10-01,1
+C016,Meeting Room Booking,bug,2025-07-01,1
+C016,Meeting Room Booking,bug,2025-11-01,1
+C016,Meeting Room Booking,configuration,2025-09-01,1
+C016,Meeting Room Booking,configuration,2025-12-01,1
+C016,Meeting Room Booking,how_to,2025-07-01,1
+C016,Meeting Room Booking,how_to,2025-09-01,1
+C016,Visitor Management,access,2025-08-01,1
+C016,Visitor Management,how_to,2025-09-01,2
+C016,Visitor Management,how_to,2025-10-01,1
+C016,Visitor Management,how_to,2025-11-01,1
+C017,Attendance Policy,configuration,2025-02-01,1
+C017,Attendance Policy,configuration,2025-05-01,1
+C017,Attendance Policy,configuration,2025-08-01,1
+C017,Attendance Policy,how_to,2025-03-01,1
+C017,Attendance Policy,integration,2025-01-01,1
+C017,Desk Booking,bug,2025-03-01,2
+C017,Desk Booking,bug,2025-07-01,1
+C017,Desk Booking,hardware,2025-02-01,1
+C017,Desk Booking,how_to,2025-03-01,1
+C017,Meeting Room Booking,bug,2025-03-01,3
+C017,Meeting Room Booking,how_to,2025-04-01,1
+C017,Meeting Room Booking,how_to,2025-06-01,1
+C017,Meeting Room Booking,how_to,2025-12-01,1
+C017,Meeting Room Booking,policy_restriction,2025-08-01,1
+C017,Parking,access,2025-11-01,1
+C017,Parking,configuration,2025-12-01,1
+C017,Parking,hardware,2025-07-01,1
+C017,Parking,how_to,2025-06-01,1
+C017,Parking,how_to,2025-08-01,1
+C017,Visitor Management,access,2025-04-01,1
+C017,Visitor Management,access,2025-06-01,1
+C017,Visitor Management,feature_request,2025-03-01,1
+C017,Visitor Management,how_to,2025-07-01,1
+C018,Attendance Policy,access,2025-08-01,1
+C018,Attendance Policy,bug,2025-02-01,1
+C018,Attendance Policy,bug,2025-11-01,1
+C018,Attendance Policy,configuration,2025-03-01,1
+C018,Attendance Policy,feature_request,2025-10-01,1
+C018,Attendance Policy,hardware,2025-06-01,1
+C018,Attendance Policy,how_to,2025-05-01,1
+C018,Attendance Policy,integration,2025-06-01,2
+C018,Desk Booking,bug,2025-01-01,1
+C018,Desk Booking,feature_request,2025-03-01,1
+C018,Desk Booking,how_to,2025-01-01,1
+C018,Desk Booking,how_to,2025-03-01,1
+C018,Desk Booking,integration,2025-04-01,1
+C018,Meeting Room Booking,access,2025-05-01,1
+C018,Meeting Room Booking,feature_request,2025-07-01,1
+C018,Meeting Room Booking,how_to,2025-01-01,1
+C018,Parking,configuration,2025-01-01,1
+C018,Parking,how_to,2025-02-01,1
+C018,Parking,how_to,2025-08-01,1
+C018,Visitor Management,bug,2025-03-01,1
+C018,Visitor Management,feature_request,2025-05-01,1
+C018,Visitor Management,how_to,2025-08-01,1
+C018,Visitor Management,how_to,2025-11-01,1
+C018,Visitor Management,integration,2025-03-01,1
+C018,Visitor Management,integration,2025-06-01,2
+C019,Attendance Policy,feature_request,2025-06-01,1
+C019,Attendance Policy,how_to,2025-06-01,1
+C019,Attendance Policy,policy_restriction,2025-09-01,1
+C019,QR Check-in,bug,2025-08-01,1
+C019,QR Check-in,configuration,2025-04-01,1
+C019,QR Check-in,configuration,2025-06-01,3
+C019,QR Check-in,configuration,2025-07-01,1
+C019,QR Check-in,configuration,2025-08-01,1
+C019,QR Check-in,configuration,2025-09-01,1
+C019,QR Check-in,feature_request,2025-04-01,1
+C019,QR Check-in,feature_request,2025-07-01,1
+C019,QR Check-in,hardware,2025-03-01,1
+C019,QR Check-in,hardware,2025-04-01,4
+C019,QR Check-in,hardware,2025-05-01,4
+C019,QR Check-in,hardware,2025-06-01,4
+C019,QR Check-in,hardware,2025-07-01,1
+C019,QR Check-in,hardware,2025-08-01,1
+C019,QR Check-in,hardware,2025-09-01,2
+C019,QR Check-in,hardware,2025-10-01,3
+C019,QR Check-in,hardware,2025-11-01,4
+C019,QR Check-in,hardware,2025-12-01,3
+C019,QR Check-in,how_to,2025-03-01,1
+C019,QR Check-in,how_to,2025-04-01,1
+C019,QR Check-in,how_to,2025-05-01,2
+C019,QR Check-in,how_to,2025-06-01,3
+C019,QR Check-in,how_to,2025-07-01,1
+C019,QR Check-in,how_to,2025-09-01,1
+C019,QR Check-in,how_to,2025-10-01,1
+C019,QR Check-in,how_to,2025-11-01,1
+C019,QR Check-in,how_to,2025-12-01,1
+C019,QR Check-in,policy_restriction,2025-08-01,1
+C019,Visitor Management,access,2025-07-01,1
+C019,Visitor Management,how_to,2025-07-01,1
+C019,Visitor Management,policy_restriction,2025-05-01,1
+C020,Attendance Policy,bug,2025-04-01,2
+C020,Desk Booking,bug,2025-02-01,2
+C020,Desk Booking,feature_request,2025-08-01,1
+C020,Desk Booking,how_to,2025-04-01,1
+C020,Desk Booking,how_to,2025-12-01,1
+C020,QR Check-in,access,2025-05-01,1
+C020,QR Check-in,access,2025-07-01,1
+C020,QR Check-in,bug,2025-04-01,1
+C020,QR Check-in,configuration,2025-03-01,1
+C020,QR Check-in,configuration,2025-04-01,4
+C020,QR Check-in,configuration,2025-06-01,1
+C020,QR Check-in,configuration,2025-08-01,1
+C020,QR Check-in,configuration,2025-09-01,2
+C020,QR Check-in,configuration,2025-12-01,2
+C020,QR Check-in,hardware,2025-05-01,2
+C020,QR Check-in,hardware,2025-06-01,1
+C020,QR Check-in,hardware,2025-07-01,4
+C020,QR Check-in,hardware,2025-08-01,4
+C020,QR Check-in,hardware,2025-09-01,1
+C020,QR Check-in,hardware,2025-10-01,3
+C020,QR Check-in,hardware,2025-12-01,4
+C020,QR Check-in,how_to,2025-03-01,1
+C020,QR Check-in,how_to,2025-04-01,4
+C020,QR Check-in,how_to,2025-05-01,1
+C020,QR Check-in,how_to,2025-06-01,2
+C020,QR Check-in,how_to,2025-09-01,1
+C020,QR Check-in,how_to,2025-10-01,1
+C020,QR Check-in,how_to,2025-11-01,2
+C020,QR Check-in,how_to,2025-12-01,2
+C020,QR Check-in,integration,2025-04-01,1
+C021,Desk Booking,access,2025-01-01,1
+C021,Desk Booking,bug,2025-02-01,1
+C021,Desk Booking,bug,2025-03-01,1
+C021,Desk Booking,bug,2025-05-01,1
+C021,Desk Booking,bug,2025-07-01,1
+C021,Desk Booking,configuration,2025-03-01,1
+C021,Desk Booking,configuration,2025-07-01,1
+C021,Desk Booking,how_to,2025-01-01,1
+C021,Desk Booking,how_to,2025-08-01,1
+C021,Meeting Room Booking,bug,2025-04-01,1
+C021,Meeting Room Booking,bug,2025-05-01,1
+C021,Meeting Room Booking,configuration,2025-04-01,1
+C021,Meeting Room Booking,feature_request,2025-03-01,2
+C021,Meeting Room Booking,hardware,2025-02-01,1
+C021,Meeting Room Booking,hardware,2025-04-01,1
+C021,Meeting Room Booking,how_to,2025-02-01,1
+C021,Meeting Room Booking,how_to,2025-03-01,1
+C021,Meeting Room Booking,how_to,2025-08-01,1
+C022,Attendance Policy,bug,2025-01-01,1
+C022,Attendance Policy,configuration,2025-11-01,1
+C022,Attendance Policy,feature_request,2025-10-01,1
+C022,Attendance Policy,how_to,2025-02-01,1
+C022,Attendance Policy,how_to,2025-03-01,1
+C022,Desk Booking,access,2025-05-01,1
+C022,Desk Booking,access,2025-07-01,1
+C022,Desk Booking,bug,2025-06-01,1
+C022,Desk Booking,configuration,2025-11-01,1
+C022,Desk Booking,feature_request,2025-04-01,1
+C022,Desk Booking,feature_request,2025-12-01,1
+C022,Desk Booking,hardware,2025-02-01,1
+C022,Desk Booking,how_to,2025-03-01,1
+C022,Meeting Room Booking,access,2025-07-01,1
+C022,Meeting Room Booking,bug,2025-03-01,1
+C022,Meeting Room Booking,bug,2025-04-01,1
+C022,Meeting Room Booking,bug,2025-07-01,1
+C022,Meeting Room Booking,bug,2025-12-01,1
+C022,Meeting Room Booking,hardware,2025-03-01,1
+C022,Meeting Room Booking,how_to,2025-01-01,1
+C022,Parking,bug,2025-03-01,1
+C022,Parking,feature_request,2025-04-01,1
+C022,Parking,how_to,2025-04-01,1
+C022,Parking,how_to,2025-10-01,1
+C022,Visitor Management,feature_request,2025-10-01,1
+C022,Visitor Management,how_to,2025-09-01,1
+C022,Visitor Management,how_to,2025-12-01,1
+C022,Visitor Management,integration,2025-08-01,1
+C023,Attendance Policy,access,2025-04-01,1
+C023,Attendance Policy,bug,2025-04-01,1
+C023,Attendance Policy,bug,2025-05-01,1
+C023,Attendance Policy,bug,2025-06-01,1
+C023,Attendance Policy,feature_request,2025-11-01,1
+C023,Attendance Policy,how_to,2025-09-01,1
+C023,Attendance Policy,integration,2025-04-01,1
+C023,Attendance Policy,integration,2025-05-01,1
+C023,Desk Booking,access,2025-08-01,1
+C023,Desk Booking,access,2025-12-01,2
+C023,Desk Booking,bug,2025-03-01,2
+C023,Desk Booking,bug,2025-08-01,1
+C023,Desk Booking,bug,2025-12-01,1
+C023,Desk Booking,how_to,2025-03-01,1
+C023,Desk Booking,how_to,2025-06-01,1
+C023,Meeting Room Booking,access,2025-03-01,1
+C023,Meeting Room Booking,bug,2025-05-01,1
+C023,Meeting Room Booking,bug,2025-06-01,1
+C023,Meeting Room Booking,how_to,2025-03-01,1
+C023,Meeting Room Booking,how_to,2025-04-01,1
+C023,Meeting Room Booking,how_to,2025-07-01,1
+C023,Meeting Room Booking,how_to,2025-10-01,1
+C024,Desk Booking,access,2025-05-01,1
+C024,Desk Booking,access,2025-06-01,1
+C024,Desk Booking,access,2025-09-01,1
+C024,Desk Booking,bug,2025-06-01,1
+C024,Desk Booking,bug,2025-08-01,1
+C024,Desk Booking,feature_request,2025-08-01,1
+C024,Desk Booking,how_to,2025-07-01,2
+C024,Desk Booking,how_to,2025-08-01,1
+C024,Desk Booking,how_to,2025-12-01,1
+C024,Meeting Room Booking,access,2025-06-01,1
+C024,Meeting Room Booking,access,2025-11-01,1
+C024,Meeting Room Booking,bug,2025-07-01,1
+C024,Meeting Room Booking,feature_request,2025-06-01,2
+C024,Meeting Room Booking,how_to,2025-07-01,1
+C024,Meeting Room Booking,how_to,2025-11-01,1
+C024,Meeting Room Booking,integration,2025-06-01,1
+C024,Meeting Room Booking,integration,2025-10-01,1
+C024,Meeting Room Booking,policy_restriction,2025-07-01,1
+C024,Meeting Room Booking,policy_restriction,2025-12-01,1
+C024,Parking,access,2025-10-01,1
+C024,Parking,bug,2025-10-01,2
+C024,Parking,configuration,2025-11-01,1
+C024,Parking,hardware,2025-06-01,1
+C024,Parking,hardware,2025-10-01,1
+C024,Parking,how_to,2025-07-01,1
+C024,Parking,how_to,2025-10-01,1
+C024,QR Check-in,access,2025-09-01,1
+C024,QR Check-in,access,2025-12-01,1
+C024,QR Check-in,bug,2025-05-01,1
+C024,QR Check-in,bug,2025-11-01,1
+C024,QR Check-in,how_to,2025-05-01,1
+C024,QR Check-in,how_to,2025-06-01,1
+C024,QR Check-in,how_to,2025-07-01,1
+C024,QR Check-in,how_to,2025-11-01,2
+C024,QR Check-in,how_to,2025-12-01,1
+C024,Visitor Management,access,2025-07-01,1
+C024,Visitor Management,access,2025-08-01,1
+C024,Visitor Management,access,2025-10-01,1
+C024,Visitor Management,bug,2025-07-01,1
+C024,Visitor Management,bug,2025-09-01,1
+C024,Visitor Management,bug,2025-10-01,1
+C024,Visitor Management,configuration,2025-08-01,1
+C024,Visitor Management,feature_request,2025-07-01,1
+C024,Visitor Management,how_to,2025-08-01,4
+C024,Visitor Management,how_to,2025-11-01,2
+C024,Visitor Management,integration,2025-07-01,1
+C024,Visitor Management,integration,2025-12-01,1
+C024,Visitor Management,policy_restriction,2025-07-01,1
+C025,Attendance Policy,access,2025-02-01,1
+C025,Attendance Policy,bug,2025-02-01,1
+C025,Attendance Policy,configuration,2025-06-01,1
+C025,Attendance Policy,feature_request,2025-03-01,2
+C025,Attendance Policy,hardware,2025-05-01,1
+C025,Attendance Policy,how_to,2025-05-01,1
+C025,Attendance Policy,how_to,2025-06-01,2
+C025,Attendance Policy,how_to,2025-12-01,2
+C025,Desk Booking,access,2025-06-01,1
+C025,Desk Booking,bug,2025-04-01,1
+C025,Desk Booking,configuration,2025-01-01,1
+C025,Desk Booking,feature_request,2025-02-01,1
+C025,Desk Booking,how_to,2025-04-01,1
+C025,Desk Booking,how_to,2025-05-01,3
+C025,Meeting Room Booking,bug,2025-12-01,1
+C025,Meeting Room Booking,feature_request,2025-02-01,1
+C025,Meeting Room Booking,hardware,2025-08-01,1
+C025,Meeting Room Booking,hardware,2025-10-01,1
+C025,Meeting Room Booking,how_to,2025-04-01,1
+C025,Meeting Room Booking,how_to,2025-06-01,1
+C025,Meeting Room Booking,how_to,2025-07-01,1
+C025,Meeting Room Booking,how_to,2025-10-01,1
+C025,Meeting Room Booking,integration,2025-01-01,1
+C025,QR Check-in,access,2025-06-01,1
+C025,QR Check-in,bug,2025-02-01,1
+C025,QR Check-in,bug,2025-03-01,1
+C025,QR Check-in,how_to,2025-02-01,1
+C025,QR Check-in,how_to,2025-08-01,1
+C025,QR Check-in,integration,2025-06-01,1
+C026,Attendance Policy,feature_request,2025-06-01,1
+C026,Attendance Policy,how_to,2025-05-01,1
+C026,Attendance Policy,how_to,2025-11-01,1
+C026,Attendance Policy,integration,2025-06-01,1
+C026,Attendance Policy,integration,2025-07-01,1
+C026,Attendance Policy,integration,2025-11-01,1
+C026,Attendance Policy,policy_restriction,2025-06-01,1
+C026,Desk Booking,bug,2025-12-01,1
+C026,Desk Booking,hardware,2025-11-01,1
+C026,Desk Booking,how_to,2025-01-01,1
+C026,Desk Booking,how_to,2025-04-01,1
+C026,Desk Booking,how_to,2025-07-01,1
+C026,Desk Booking,how_to,2025-11-01,1
+C026,Desk Booking,how_to,2025-12-01,2
+C026,Desk Booking,integration,2025-01-01,1
+C026,Meeting Room Booking,access,2025-02-01,1
+C026,Meeting Room Booking,access,2025-03-01,1
+C026,Meeting Room Booking,bug,2025-04-01,1
+C026,Meeting Room Booking,bug,2025-08-01,1
+C026,Meeting Room Booking,bug,2025-12-01,1
+C026,Meeting Room Booking,feature_request,2025-12-01,1
+C026,Meeting Room Booking,how_to,2025-01-01,1
+C026,Meeting Room Booking,how_to,2025-03-01,1
+C026,Meeting Room Booking,how_to,2025-05-01,1
+C026,Meeting Room Booking,how_to,2025-09-01,1
+C026,Meeting Room Booking,how_to,2025-12-01,1
+C026,Meeting Room Booking,integration,2025-08-01,1
+C026,Parking,access,2025-06-01,1
+C026,Parking,access,2025-11-01,1
+C026,Parking,bug,2025-07-01,1
+C026,Parking,bug,2025-08-01,1
+C026,Parking,bug,2025-12-01,1
+C026,Parking,feature_request,2025-04-01,1
+C026,Parking,feature_request,2025-12-01,1
+C026,Parking,how_to,2025-04-01,1
+C026,Parking,how_to,2025-06-01,1
+C026,Parking,how_to,2025-09-01,1
+C026,Parking,how_to,2025-10-01,1
+C026,Parking,integration,2025-05-01,1
+C026,QR Check-in,access,2025-04-01,2
+C026,QR Check-in,access,2025-11-01,1
+C026,QR Check-in,bug,2025-04-01,1
+C026,QR Check-in,how_to,2025-05-01,1
+C026,QR Check-in,how_to,2025-06-01,1
+C026,QR Check-in,how_to,2025-10-01,1
+C026,QR Check-in,integration,2025-04-01,1
+C026,QR Check-in,integration,2025-07-01,1
+C026,Visitor Management,access,2025-04-01,1
+C026,Visitor Management,bug,2025-07-01,1
+C026,Visitor Management,bug,2025-10-01,1
+C026,Visitor Management,configuration,2025-04-01,1
+C026,Visitor Management,feature_request,2025-04-01,1
+C026,Visitor Management,feature_request,2025-06-01,1
+C026,Visitor Management,how_to,2025-07-01,1
+C027,Attendance Policy,bug,2025-07-01,1
+C027,Attendance Policy,configuration,2025-02-01,1
+C027,Attendance Policy,configuration,2025-04-01,1
+C027,Attendance Policy,how_to,2025-09-01,1
+C027,Attendance Policy,integration,2025-03-01,1
+C027,Attendance Policy,integration,2025-11-01,1
+C027,Attendance Policy,policy_restriction,2025-10-01,1
+C027,Desk Booking,access,2025-08-01,1
+C027,Desk Booking,bug,2025-03-01,1
+C027,Desk Booking,configuration,2025-10-01,1
+C027,Desk Booking,policy_restriction,2025-04-01,1
+C027,Meeting Room Booking,access,2025-03-01,1
+C027,Meeting Room Booking,bug,2025-10-01,1
+C027,Meeting Room Booking,configuration,2025-11-01,1
+C027,Meeting Room Booking,how_to,2025-02-01,1
+C027,Meeting Room Booking,how_to,2025-09-01,1
+C027,Meeting Room Booking,how_to,2025-12-01,1
+C027,Meeting Room Booking,integration,2025-08-01,1
+C027,Parking,bug,2025-06-01,1
+C027,Parking,configuration,2025-04-01,1
+C027,Parking,configuration,2025-08-01,1
+C027,Parking,how_to,2025-05-01,1
+C027,Parking,how_to,2025-06-01,1
+C027,QR Check-in,access,2025-06-01,1
+C027,QR Check-in,configuration,2025-04-01,1
+C027,QR Check-in,configuration,2025-12-01,1
+C027,QR Check-in,feature_request,2025-05-01,2
+C027,QR Check-in,how_to,2025-05-01,1
+C027,QR Check-in,integration,2025-08-01,1
+C027,QR Check-in,integration,2025-12-01,1
+C027,Visitor Management,bug,2025-02-01,1
+C027,Visitor Management,bug,2025-12-01,1
+C027,Visitor Management,configuration,2025-02-01,1
+C027,Visitor Management,how_to,2025-04-01,1
+C027,Visitor Management,how_to,2025-09-01,1
+C027,Visitor Management,policy_restriction,2025-08-01,1
+C028,Attendance Policy,access,2025-04-01,1
+C028,Attendance Policy,bug,2025-01-01,1
+C028,Attendance Policy,bug,2025-06-01,2
+C028,Attendance Policy,bug,2025-11-01,1
+C028,Attendance Policy,configuration,2025-08-01,1
+C028,Attendance Policy,feature_request,2025-03-01,1
+C028,Attendance Policy,how_to,2025-11-01,1
+C028,Desk Booking,bug,2025-01-01,2
+C028,Desk Booking,bug,2025-05-01,1
+C028,Desk Booking,bug,2025-08-01,1
+C028,Desk Booking,bug,2025-11-01,1
+C028,Desk Booking,how_to,2025-03-01,1
+C028,Desk Booking,how_to,2025-04-01,1
+C028,Desk Booking,how_to,2025-09-01,1
+C028,Desk Booking,how_to,2025-11-01,1
+C028,Desk Booking,integration,2025-01-01,1
+C028,Meeting Room Booking,bug,2025-01-01,1
+C028,Meeting Room Booking,bug,2025-02-01,1
+C028,Meeting Room Booking,configuration,2025-04-01,1
+C028,Meeting Room Booking,how_to,2025-04-01,1
+C028,Meeting Room Booking,how_to,2025-05-01,1
+C028,Meeting Room Booking,how_to,2025-09-01,1
+C028,Visitor Management,access,2025-12-01,1
+C028,Visitor Management,bug,2025-02-01,1
+C028,Visitor Management,configuration,2025-02-01,1
+C028,Visitor Management,how_to,2025-04-01,1
+C028,Visitor Management,how_to,2025-05-01,1
+C028,Visitor Management,integration,2025-06-01,2
+C029,Desk Booking,access,2025-05-01,1
+C029,Desk Booking,bug,2025-09-01,1
+C029,Desk Booking,configuration,2025-06-01,1
+C029,Desk Booking,configuration,2025-11-01,1
+C029,Desk Booking,how_to,2025-09-01,1
+C029,Meeting Room Booking,bug,2025-06-01,1
+C029,Meeting Room Booking,configuration,2025-04-01,1
+C029,Meeting Room Booking,configuration,2025-07-01,1
+C029,Meeting Room Booking,how_to,2025-05-01,1
+C029,Meeting Room Booking,integration,2025-03-01,1
+C029,Parking,access,2025-08-01,1
+C029,Parking,bug,2025-06-01,1
+C029,Parking,configuration,2025-11-01,1
+C029,Parking,feature_request,2025-04-01,1
+C029,Parking,how_to,2025-04-01,1
+C029,Parking,how_to,2025-05-01,2
+C029,Parking,how_to,2025-07-01,2
+C029,Parking,how_to,2025-11-01,1
+C029,Parking,how_to,2025-12-01,1
+C029,Parking,integration,2025-04-01,1
+C030,Attendance Policy,access,2025-11-01,1
+C030,Attendance Policy,access,2025-12-01,1
+C030,Attendance Policy,bug,2025-03-01,1
+C030,Attendance Policy,bug,2025-10-01,3
+C030,Attendance Policy,bug,2025-11-01,2
+C030,Attendance Policy,bug,2025-12-01,3
+C030,Attendance Policy,hardware,2025-07-01,1
+C030,Attendance Policy,how_to,2025-04-01,1
+C030,Attendance Policy,integration,2025-03-01,1
+C030,Desk Booking,access,2025-11-01,1
+C030,Desk Booking,bug,2025-09-01,1
+C030,Desk Booking,bug,2025-10-01,1
+C030,Desk Booking,bug,2025-11-01,1
+C030,Desk Booking,bug,2025-12-01,1
+C030,Desk Booking,how_to,2025-05-01,1
+C030,Desk Booking,how_to,2025-07-01,1
+C030,Desk Booking,how_to,2025-08-01,1
+C030,Desk Booking,how_to,2025-12-01,1
+C030,Meeting Room Booking,access,2025-02-01,1
+C030,Meeting Room Booking,access,2025-11-01,2
+C030,Meeting Room Booking,bug,2025-10-01,2
+C030,Meeting Room Booking,bug,2025-11-01,2
+C030,Meeting Room Booking,configuration,2025-04-01,1
+C030,Meeting Room Booking,feature_request,2025-06-01,2
+C030,Meeting Room Booking,how_to,2025-02-01,1
+C030,Meeting Room Booking,how_to,2025-10-01,2
+C030,Meeting Room Booking,how_to,2025-11-01,3
+C030,Meeting Room Booking,how_to,2025-12-01,1
+C030,QR Check-in,access,2025-10-01,2
+C030,QR Check-in,access,2025-11-01,1
+C030,QR Check-in,access,2025-12-01,1
+C030,QR Check-in,bug,2025-11-01,1
+C030,QR Check-in,bug,2025-12-01,1
+C030,QR Check-in,how_to,2025-10-01,1
+C030,QR Check-in,how_to,2025-11-01,2
+C030,QR Check-in,how_to,2025-12-01,1
+C030,Visitor Management,access,2025-05-01,2
+C030,Visitor Management,access,2025-09-01,1
+C030,Visitor Management,access,2025-12-01,3
+C030,Visitor Management,bug,2025-04-01,1
+C030,Visitor Management,bug,2025-06-01,1
+C030,Visitor Management,bug,2025-10-01,2
+C030,Visitor Management,bug,2025-11-01,5
+C030,Visitor Management,bug,2025-12-01,2
+C030,Visitor Management,how_to,2025-03-01,1
+C030,Visitor Management,how_to,2025-05-01,1
+C030,Visitor Management,how_to,2025-10-01,2
+C030,Visitor Management,how_to,2025-11-01,1
+C031,Desk Booking,access,2025-05-01,1
+C031,Desk Booking,access,2025-06-01,1
+C031,Desk Booking,access,2025-07-01,1
+C031,Desk Booking,access,2025-08-01,1
+C031,Desk Booking,access,2025-09-01,4
+C031,Desk Booking,access,2025-11-01,1
+C031,Desk Booking,access,2025-12-01,4
+C031,Desk Booking,bug,2025-07-01,2
+C031,Desk Booking,feature_request,2025-06-01,2
+C031,Desk Booking,feature_request,2025-07-01,1
+C031,Desk Booking,feature_request,2025-10-01,1
+C031,Desk Booking,feature_request,2025-11-01,1
+C031,Desk Booking,feature_request,2025-12-01,6
+C031,Desk Booking,hardware,2025-06-01,1
+C031,Desk Booking,how_to,2025-05-01,2
+C031,Desk Booking,how_to,2025-07-01,1
+C031,Desk Booking,how_to,2025-08-01,1
+C031,Desk Booking,how_to,2025-09-01,1
+C031,Desk Booking,how_to,2025-10-01,1
+C031,Desk Booking,how_to,2025-12-01,1
+C031,Meeting Room Booking,access,2025-05-01,2
+C031,Meeting Room Booking,access,2025-09-01,1
+C031,Meeting Room Booking,bug,2025-05-01,1
+C031,Meeting Room Booking,bug,2025-07-01,1
+C031,Meeting Room Booking,configuration,2025-05-01,2
+C031,Meeting Room Booking,feature_request,2025-05-01,1
+C031,Meeting Room Booking,feature_request,2025-10-01,1
+C031,Meeting Room Booking,hardware,2025-09-01,1
+C031,Meeting Room Booking,how_to,2025-06-01,1
+C031,Meeting Room Booking,how_to,2025-10-01,2
+C031,Parking,access,2025-09-01,2
+C031,Parking,bug,2025-07-01,1
+C031,Parking,bug,2025-11-01,1
+C031,Parking,bug,2025-12-01,1
+C031,Parking,feature_request,2025-08-01,1
+C031,Parking,feature_request,2025-09-01,2
+C031,Parking,how_to,2025-06-01,1
+C031,Parking,how_to,2025-07-01,1
+C031,Parking,how_to,2025-09-01,1
+C031,Parking,how_to,2025-11-01,1
+C031,QR Check-in,access,2025-06-01,1
+C031,QR Check-in,access,2025-09-01,1
+C031,QR Check-in,bug,2025-06-01,1
+C031,QR Check-in,bug,2025-07-01,1
+C031,QR Check-in,how_to,2025-06-01,3
+C031,QR Check-in,how_to,2025-07-01,1
+C031,QR Check-in,how_to,2025-09-01,1
+C031,QR Check-in,integration,2025-12-01,1
+C031,Visitor Management,bug,2025-08-01,1
+C031,Visitor Management,bug,2025-09-01,1
+C031,Visitor Management,bug,2025-11-01,1
+C031,Visitor Management,configuration,2025-07-01,2
+C031,Visitor Management,configuration,2025-12-01,1
+C031,Visitor Management,feature_request,2025-07-01,1
+C031,Visitor Management,feature_request,2025-08-01,1
+C031,Visitor Management,feature_request,2025-12-01,1
+C031,Visitor Management,how_to,2025-08-01,1
+C031,Visitor Management,how_to,2025-09-01,1
+C031,Visitor Management,integration,2025-12-01,1
+C032,Attendance Policy,access,2025-04-01,1
+C032,Attendance Policy,access,2025-08-01,1
+C032,Attendance Policy,access,2025-09-01,1
+C032,Attendance Policy,bug,2025-09-01,1
+C032,Attendance Policy,configuration,2025-07-01,1
+C032,Attendance Policy,feature_request,2025-08-01,1
+C032,Attendance Policy,how_to,2025-03-01,1
+C032,Attendance Policy,integration,2025-05-01,1
+C032,Desk Booking,access,2025-08-01,1
+C032,Desk Booking,access,2025-10-01,1
+C032,Desk Booking,bug,2025-03-01,1
+C032,Desk Booking,how_to,2025-04-01,1
+C032,Desk Booking,policy_restriction,2025-03-01,1
+C032,Meeting Room Booking,bug,2025-04-01,1
+C032,Meeting Room Booking,bug,2025-09-01,1
+C032,Meeting Room Booking,bug,2025-10-01,1
+C032,Meeting Room Booking,configuration,2025-05-01,1
+C032,Meeting Room Booking,how_to,2025-04-01,1
+C032,Meeting Room Booking,how_to,2025-07-01,1
+C032,Meeting Room Booking,how_to,2025-09-01,1
+C032,Meeting Room Booking,integration,2025-03-01,1
+C032,Meeting Room Booking,integration,2025-05-01,1
+C032,Meeting Room Booking,policy_restriction,2025-09-01,1
+C032,QR Check-in,bug,2025-08-01,1
+C032,QR Check-in,configuration,2025-11-01,2
+C032,QR Check-in,hardware,2025-09-01,1
+C032,QR Check-in,how_to,2025-04-01,1
+C032,QR Check-in,how_to,2025-06-01,1
+C032,QR Check-in,how_to,2025-10-01,1
+C032,QR Check-in,integration,2025-08-01,1
+C033,Attendance Policy,access,2025-09-01,1
+C033,Attendance Policy,access,2025-10-01,1
+C033,Attendance Policy,bug,2025-07-01,1
+C033,Attendance Policy,bug,2025-09-01,1
+C033,Attendance Policy,bug,2025-11-01,1
+C033,Attendance Policy,configuration,2025-07-01,1
+C033,Attendance Policy,feature_request,2025-11-01,1
+C033,Desk Booking,access,2025-05-01,1
+C033,Desk Booking,access,2025-10-01,1
+C033,Desk Booking,access,2025-11-01,1
+C033,Desk Booking,bug,2025-08-01,1
+C033,Desk Booking,bug,2025-09-01,1
+C033,Desk Booking,bug,2025-10-01,2
+C033,Desk Booking,configuration,2025-10-01,1
+C033,Desk Booking,how_to,2025-05-01,2
+C033,Desk Booking,integration,2025-08-01,1
+C033,Meeting Room Booking,access,2025-05-01,1
+C033,Meeting Room Booking,access,2025-09-01,1
+C033,Meeting Room Booking,bug,2025-05-01,1
+C033,Meeting Room Booking,bug,2025-06-01,1
+C033,Meeting Room Booking,feature_request,2025-07-01,1
+C033,Meeting Room Booking,how_to,2025-05-01,1
+C033,Meeting Room Booking,how_to,2025-06-01,1
+C033,Meeting Room Booking,how_to,2025-07-01,1
+C033,Meeting Room Booking,policy_restriction,2025-05-01,1
+C033,QR Check-in,access,2025-08-01,1
+C033,QR Check-in,access,2025-10-01,2
+C033,QR Check-in,bug,2025-08-01,1
+C033,QR Check-in,bug,2025-10-01,1
+C033,QR Check-in,bug,2025-12-01,1
+C033,QR Check-in,feature_request,2025-10-01,1
+C033,QR Check-in,how_to,2025-08-01,2
+C033,QR Check-in,integration,2025-08-01,1
+C033,QR Check-in,integration,2025-11-01,2
+C033,Visitor Management,feature_request,2025-07-01,2
+C034,Desk Booking,bug,2025-01-01,1
+C034,Desk Booking,bug,2025-08-01,1
+C034,Desk Booking,configuration,2025-03-01,1
+C034,Desk Booking,configuration,2025-04-01,2
+C034,Desk Booking,configuration,2025-11-01,1
+C034,Desk Booking,how_to,2025-04-01,1
+C034,Desk Booking,integration,2025-06-01,1
+C034,Desk Booking,integration,2025-07-01,1
+C034,Desk Booking,policy_restriction,2025-12-01,1
+C035,Desk Booking,access,2025-07-01,1
+C035,Desk Booking,access,2025-08-01,1
+C035,Desk Booking,access,2025-10-01,1
+C035,Desk Booking,bug,2025-05-01,1
+C035,Desk Booking,bug,2025-06-01,1
+C035,Desk Booking,bug,2025-07-01,1
+C035,Desk Booking,bug,2025-11-01,1
+C035,Desk Booking,configuration,2025-04-01,1
+C035,Desk Booking,how_to,2025-05-01,1
+C035,Desk Booking,integration,2025-10-01,1
+C035,Meeting Room Booking,feature_request,2025-07-01,1
+C035,Meeting Room Booking,how_to,2025-05-01,1
+C035,Meeting Room Booking,how_to,2025-08-01,1
+C035,Parking,bug,2025-06-01,1
+C036,Desk Booking,feature_request,2025-07-01,1
+C036,Desk Booking,how_to,2025-10-01,1
+C036,Desk Booking,integration,2025-09-01,1
+C036,Parking,access,2025-06-01,1
+C036,Parking,bug,2025-07-01,1
+C036,Parking,bug,2025-08-01,1
+C036,Parking,feature_request,2025-07-01,1
+C036,Parking,how_to,2025-06-01,1
+C036,Parking,how_to,2025-07-01,1
+C036,QR Check-in,bug,2025-09-01,1
+C036,QR Check-in,feature_request,2025-10-01,1
+C036,QR Check-in,how_to,2025-06-01,1
+C036,QR Check-in,how_to,2025-12-01,1
+C037,Desk Booking,access,2025-03-01,1
+C037,Desk Booking,bug,2025-01-01,1
+C037,Desk Booking,configuration,2025-02-01,1
+C037,Desk Booking,how_to,2025-04-01,1
+C037,Desk Booking,how_to,2025-09-01,1
+C037,Desk Booking,policy_restriction,2025-05-01,1
+C037,Meeting Room Booking,access,2025-06-01,1
+C037,Meeting Room Booking,bug,2025-04-01,1
+C037,Meeting Room Booking,bug,2025-05-01,3
+C037,Meeting Room Booking,bug,2025-11-01,1
+C037,Meeting Room Booking,configuration,2025-06-01,1
+C037,Meeting Room Booking,feature_request,2025-04-01,1
+C037,Meeting Room Booking,feature_request,2025-07-01,1
+C037,Meeting Room Booking,feature_request,2025-09-01,1
+C037,Meeting Room Booking,integration,2025-07-01,1
+C038,Desk Booking,access,2025-01-01,2
+C038,Desk Booking,access,2025-09-01,1
+C038,Desk Booking,bug,2025-01-01,2
+C038,Desk Booking,bug,2025-03-01,1
+C038,Desk Booking,bug,2025-04-01,2
+C038,Desk Booking,bug,2025-10-01,1
+C038,Desk Booking,bug,2025-11-01,1
+C038,Desk Booking,configuration,2025-05-01,1
+C038,Desk Booking,hardware,2025-02-01,1
+C038,Desk Booking,how_to,2025-05-01,1
+C038,Desk Booking,integration,2025-02-01,1
+C038,Meeting Room Booking,access,2025-01-01,1
+C038,Meeting Room Booking,access,2025-09-01,1
+C038,Meeting Room Booking,bug,2025-01-01,1
+C038,Meeting Room Booking,bug,2025-03-01,4
+C038,Meeting Room Booking,bug,2025-04-01,1
+C038,Meeting Room Booking,bug,2025-10-01,2
+C038,Meeting Room Booking,bug,2025-12-01,1
+C038,Meeting Room Booking,how_to,2025-02-01,2
+C038,Meeting Room Booking,how_to,2025-04-01,1
+C038,Meeting Room Booking,how_to,2025-05-01,1
+C038,Meeting Room Booking,how_to,2025-06-01,2
+C038,Meeting Room Booking,how_to,2025-10-01,1
+C038,Meeting Room Booking,how_to,2025-12-01,2
+C038,Meeting Room Booking,integration,2025-01-01,2
+C038,Meeting Room Booking,integration,2025-02-01,3
+C038,Meeting Room Booking,integration,2025-03-01,2
+C038,Meeting Room Booking,integration,2025-04-01,4
+C038,Meeting Room Booking,integration,2025-05-01,2
+C038,Meeting Room Booking,integration,2025-06-01,2
+C038,Meeting Room Booking,integration,2025-07-01,4
+C038,Meeting Room Booking,integration,2025-08-01,1
+C038,Meeting Room Booking,integration,2025-09-01,4
+C038,Meeting Room Booking,integration,2025-10-01,2
+C038,Meeting Room Booking,integration,2025-11-01,1
+C038,QR Check-in,bug,2025-02-01,1
+C038,QR Check-in,configuration,2025-02-01,1
+C038,QR Check-in,configuration,2025-04-01,1
+C038,QR Check-in,configuration,2025-09-01,1
+C038,QR Check-in,configuration,2025-11-01,1
+C038,QR Check-in,how_to,2025-03-01,1
+C038,QR Check-in,how_to,2025-04-01,1
+C039,Attendance Policy,bug,2025-05-01,1
+C039,Attendance Policy,bug,2025-08-01,1
+C039,Attendance Policy,bug,2025-09-01,1
+C039,Attendance Policy,bug,2025-11-01,1
+C039,Attendance Policy,integration,2025-04-01,1
+C039,Desk Booking,access,2025-04-01,1
+C039,Desk Booking,bug,2025-04-01,1
+C039,Desk Booking,bug,2025-09-01,1
+C039,Desk Booking,bug,2025-12-01,1
+C039,Desk Booking,feature_request,2025-05-01,1
+C039,Desk Booking,how_to,2025-03-01,1
+C039,Desk Booking,how_to,2025-04-01,1
+C039,Desk Booking,how_to,2025-12-01,1
+C039,Meeting Room Booking,access,2025-05-01,1
+C039,Meeting Room Booking,bug,2025-04-01,1
+C039,Meeting Room Booking,bug,2025-09-01,1
+C039,Meeting Room Booking,bug,2025-12-01,1
+C039,Meeting Room Booking,configuration,2025-11-01,1
+C039,Meeting Room Booking,feature_request,2025-04-01,1
+C039,Meeting Room Booking,feature_request,2025-10-01,1
+C039,Meeting Room Booking,how_to,2025-05-01,1
+C039,Meeting Room Booking,how_to,2025-07-01,1
+C039,QR Check-in,bug,2025-04-01,1
+C039,QR Check-in,bug,2025-05-01,1
+C039,QR Check-in,bug,2025-10-01,1
+C039,QR Check-in,feature_request,2025-10-01,1
+C039,QR Check-in,how_to,2025-09-01,1
+C039,QR Check-in,integration,2025-10-01,1
+C040,Attendance Policy,access,2025-01-01,1
+C040,Attendance Policy,feature_request,2025-01-01,1
+C040,Attendance Policy,feature_request,2025-03-01,1
+C040,Attendance Policy,how_to,2025-08-01,1
+C040,Attendance Policy,integration,2025-10-01,1
+C040,Desk Booking,access,2025-02-01,1
+C040,Desk Booking,access,2025-05-01,1
+C040,Desk Booking,bug,2025-01-01,1
+C040,Desk Booking,how_to,2025-01-01,1
+C040,Desk Booking,how_to,2025-02-01,1
+C040,Desk Booking,integration,2025-05-01,1
+C040,Meeting Room Booking,access,2025-01-01,1
+C040,Meeting Room Booking,access,2025-03-01,1
+C040,Meeting Room Booking,access,2025-06-01,1
+C040,Meeting Room Booking,configuration,2025-06-01,1
+C040,Meeting Room Booking,configuration,2025-08-01,1
+C040,Meeting Room Booking,how_to,2025-05-01,1
+C040,QR Check-in,bug,2025-05-01,1
+C040,QR Check-in,integration,2025-10-01,1
+C040,Visitor Management,access,2025-01-01,1
+C040,Visitor Management,access,2025-05-01,1
+C040,Visitor Management,access,2025-09-01,1
+C040,Visitor Management,bug,2025-07-01,1
+C040,Visitor Management,configuration,2025-03-01,2
+C040,Visitor Management,configuration,2025-11-01,1
+C040,Visitor Management,how_to,2025-04-01,2
+C040,Visitor Management,how_to,2025-05-01,1
+C040,Visitor Management,integration,2025-03-01,1
