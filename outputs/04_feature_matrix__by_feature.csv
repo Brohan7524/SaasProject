@@ -1,0 +1,7 @@
+feature,clients_enabled,pct_clients_enabled,avg_adoption_pct_where_enabled,min_adoption_pct,max_adoption_pct
+Desk Booking,39,97.5,31.0,12.5,52.3
+QR Check-in,23,57.5,29.9,14.9,49.5
+Attendance Policy,26,65.0,23.6,11.6,35.9
+Meeting Room Booking,32,80.0,18.6,8.1,29.5
+Parking,17,42.5,15.1,0.7,23.2
+Visitor Management,22,55.0,7.0,2.8,10.2

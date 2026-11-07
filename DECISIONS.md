@@ -37,3 +37,20 @@ Log of choices made where SPEC.md was ambiguous.
 - **Known limitation of X:** `enabled_date` before 2025-01-01 (client C002, enabled Dec 2024) makes month 1 partly invisible, because events only start on 1 Jan. Its ratio (10.05) is inflated, but it is not flagged either way.
 - **Cohort retention:** cohort = month of first `book` event, activity = any booking in a month. There is one table for any feature and one per feature. Later cohorts have fewer months of history and are cut off at Dec 2025.
 - **DAU/WAU/MAU:** DAU is averaged over weekdays only (Mon-Fri), with zero-activity weekdays counted as 0 via a calendar table. Weekends are excluded because hybrid offices are nearly empty then. Weeks run Mon-Sun and belong to the month they start in.
+
+## P5: SQL 04-06
+- **Dependency:** `04_feature_matrix.sql` builds the temp table `feature_matrix`; 05 and 06 reuse it. `run_queries.py` runs the files in order on one connection, so run them through it.
+- **Matrix metric (04):** adoption = employees with a book/check-in in the last 90 days (2025-10-03..2025-12-31) / ALL client employees. Dividing by all employees, not only eligible ones, makes partial rollouts look weak. `adoption_pct_of_eligible` and `coverage_pct` are included as well. Disabled features are NULL, not 0.
+- **Low adopter (05):** the lowest quartile of adoption per feature (`NTILE(4) = 1`), so each feature is compared with its own peers. Quartiles were chosen over a fixed % because "good" adoption differs a lot by feature (Visitor ~7%, Desk ~31%).
+- **Finding worth knowing:** adoption % alone does NOT expose every gap. Strict-policy clients still have many employees who book now and then, so they are not in the lowest desk quartile even though most of their views never become bookings. That is why the gap detector (P6) looks at behaviour (view-to-book, no-shows), not only adoption %.
+
+### Health score (06) - weights and why
+`health = 0.30 * breadth + 0.30 * depth + 0.25 * trend + 0.15 * (100 - ticket_load)`, all components 0-100.
+- **Breadth, 30%:** is the client using many features, or only Desk Booking? Breadth is what makes a client sticky and is the central product-adoption question. A feature counts as "in use" if >= 5% of employees were active in the last 90 days.
+- **Depth, 30%:** how well does the client use the features it has? It is the client's average percent rank against peers on each enabled feature. Peer-relative on purpose: there is no objective "good" adoption level, and this avoids picking arbitrary targets. Side effect: the score is relative, not absolute.
+- **Trend, 25%:** is usage rising or falling? It gets less weight than breadth and depth because 60-day windows are noisy and holidays distort them for everyone.
+- **Ticket load, 15%, subtracted:** a high ticket rate is a warning sign but also a sign of engagement, so it has the lowest weight. Percent rank of tickets per 100 employees in the last 90 days.
+- **Two changes made after seeing the first run (both disclosed):**
+  1. *Trend window.* The first draft compared Oct-Dec with Jul-Sep. That diluted a decline concentrated at year end, and the two clients with the sharpest recent drop scored as healthy as everyone else. It now compares the last 60 days with the previous 60. Across all 40 clients this ratio is around 0.8 for normal clients (the Diwali/Christmas dip) and 0.44-0.48 for the two sharpest decliners.
+  2. *Red band.* The first draft used Red < 45, but no client scored below 48 (the peer-percentile components pull scores to the middle), so Red was empty and useless. Bands are now Green >= 65, Amber 55 to < 65, Red < 55 (the bottom quartile is ~55). The bands are a relative ranking, not an absolute judgement.
+- **Limitation:** a coarse health band does not tell you the cause. Use the `weakest_component` column and the gap report (P6) for that.

@@ -1,0 +1,41 @@
+client_id,client_name,region,plan,desk_booking,meeting_room,parking,qr_checkin,attendance_policy,visitor_mgmt
+C001,"Choudhury, Bakshi and Maharaj",UK,Pro,34.4,21.1,,30.2,,6.6
+C002,Kapoor and Sons,US,Enterprise,33.2,22.4,18.4,33.9,27.3,8.7
+C003,"Chaudry, Chahal and Sami",SG,Pro,20.6,14.4,10.3,19.1,14.6,
+C004,Balan Inc,UK,Pro,31.3,18.4,,28.6,,5.7
+C005,Kaul PLC,India,Enterprise,28.9,9.3,,,19.8,
+C006,"Bala, Issac and Saini",SG,Enterprise,30.4,17.3,0.7,28.5,17.8,7.9
+C007,Sen PLC,UK,Pro,35.1,25.0,23.2,36.0,30.3,9.6
+C008,Ahuja-Dutta,UK,Basic,40.4,27.1,20.5,,,
+C009,"Sami, Oak and Mall",India,Pro,38.2,29.5,,49.5,32.4,9.7
+C010,Kale LLC,US,Basic,37.8,,17.1,,23.7,
+C011,Chanda Group,India,Basic,39.5,,,40.6,,8.5
+C012,Parmer LLC,SG,Basic,36.1,,,,,
+C013,"Lalla, Bassi and Sharaf",US,Enterprise,34.2,21.8,,33.8,22.0,7.3
+C014,"Dash, Radhakrishnan and Brar",UK,Pro,13.8,8.1,,,11.6,2.8
+C015,"Memon, Pathak and Handa",US,Pro,34.4,,17.9,,25.8,
+C016,"Boase, Bath and Kari",India,Enterprise,33.3,20.4,,,22.6,6.6
+C017,Buch-Kaul,US,Pro,30.9,19.8,12.3,,21.0,6.8
+C018,Rai LLC,India,Pro,35.1,24.1,13.6,,24.1,7.9
+C019,Patla-Gaba,UK,Basic,,,,16.3,33.0,7.2
+C020,Pant-Kadakia,US,Basic,52.3,,,14.9,35.9,
+C021,"Loke, Bora and Garg",UK,Pro,13.8,10.2,,,,
+C022,"Konda, Gade and Shere",India,Pro,30.0,20.0,15.7,,22.1,5.4
+C023,Madan-Kanda,SG,Pro,28.4,15.8,,,18.5,
+C024,"Nair, Bhalla and Karnik",SG,Enterprise,22.0,23.0,17.8,30.9,,6.5
+C025,Mutti Group,UK,Pro,33.3,21.7,,28.5,25.3,
+C026,Bhatti-Kakar,India,Pro,41.7,19.9,21.1,36.6,30.5,10.2
+C027,"Murty, Kala and Tata",US,Pro,27.7,17.9,12.4,24.8,18.6,4.7
+C028,Shanker-Dhar,India,Pro,29.5,16.4,,,19.5,5.9
+C029,Dewan-Koshy,India,Basic,12.5,9.2,7.7,,,
+C030,"Yohannan, Lall and Sangha",UK,Pro,37.0,20.2,,32.7,30.0,6.5
+C031,"Rastogi, Pathak and Kanda",UK,Basic,21.8,23.4,20.4,36.2,,6.9
+C032,Upadhyay Group,SG,Pro,28.0,14.0,,24.8,20.4,
+C033,Batta Inc,India,Enterprise,37.2,20.7,,35.6,24.6,7.1
+C034,Dutta Ltd,India,Basic,28.4,,,,,
+C035,Bhatt-Rajan,US,Basic,38.5,23.6,17.2,,,
+C036,Sidhu-Wadhwa,India,Basic,20.4,,9.9,17.3,,
+C037,Apte-Contractor,India,Basic,21.4,13.2,,,,
+C038,"Yadav, Loke and Oak",US,Pro,42.6,11.5,,40.4,,
+C039,Memon Group,India,Pro,28.3,18.5,,23.3,22.1,
+C040,Setty Inc,UK,Enterprise,25.2,17.4,,25.0,20.7,5.2

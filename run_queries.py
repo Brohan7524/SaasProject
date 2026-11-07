@@ -73,6 +73,26 @@ def print_headlines(r):
         s = s[s["month"].isin(["2025-09", "2025-11"])]
         print(s.pivot(index="feature", columns="month", values=["avg_dau", "mau", "dau_mau"]).to_string())
 
+    if "04_feature_matrix__by_feature" in r:
+        print("\n=== 04  Feature enablement and adoption (last 90 days, % of all employees) ===")
+        print(r["04_feature_matrix__by_feature"].to_string(index=False))
+        print("\n=== 04  Client x feature matrix (adoption % of employees; blank = not enabled) ===")
+        print(r["04_feature_matrix__matrix_wide"].drop(columns=["client_name"]).to_string(index=False))
+
+    if "05_why_not__low_vs_rest_by_feature" in r:
+        print("\n=== 05  Low adopters (lowest quartile per feature) vs the rest ===")
+        print(r["05_why_not__low_vs_rest_by_feature"].to_string(index=False))
+        print("\n=== 05  Ticket mix, % of tickets ===")
+        print(r["05_why_not__ticket_mix_low_vs_rest"].to_string(index=False))
+
+    if "06_client_health__band_summary" in r:
+        print("\n=== 06  Client health bands ===")
+        print(r["06_client_health__band_summary"].to_string(index=False))
+        print("\n=== 06  Ten lowest health scores ===")
+        cols = ["client_id", "total_employees", "breadth_score", "depth_score", "trend_score",
+                "ticket_load_score", "health_score", "health_band", "weakest_component"]
+        print(r["06_client_health__client_health"][cols].head(10).to_string(index=False))
+
 
 def main():
     OUT_DIR.mkdir(exist_ok=True)

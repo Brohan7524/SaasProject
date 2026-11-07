@@ -1,0 +1,13 @@
+feature,grp,client_features,view_without_book_pct,cancel_pct,no_show_pct,avg_tickets_per_100_employees
+Attendance Policy,low adopters,7,50.3,10.3,0.0,1.9
+Attendance Policy,other clients,19,49.9,10.2,0.0,3.3
+Desk Booking,low adopters,10,28.0,10.1,5.4,1.5
+Desk Booking,other clients,29,27.8,9.8,5.5,1.98
+Meeting Room Booking,low adopters,8,35.3,11.8,12.0,4.9
+Meeting Room Booking,other clients,24,35.1,12.0,7.4,1.85
+Parking,low adopters,5,32.1,7.6,4.5,4.56
+Parking,other clients,12,20.1,8.3,4.5,1.48
+QR Check-in,low adopters,6,,,,8.13
+QR Check-in,other clients,17,,,,1.84
+Visitor Management,low adopters,6,15.9,8.7,4.2,1.77
+Visitor Management,other clients,16,14.9,7.6,4.7,1.95
