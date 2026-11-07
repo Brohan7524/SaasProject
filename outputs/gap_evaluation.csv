@@ -1,0 +1,11 @@
+client_id,gap_type,result
+C005,room_not_synced,true_positive
+C006,parking_zero_spots,true_positive
+C007,strict_policy,true_positive
+C009,strict_policy,true_positive
+C011,silent_churn,true_positive
+C019,qr_no_scanners,true_positive
+C020,qr_no_scanners,true_positive
+C030,silent_churn,true_positive
+C031,bad_rollout,true_positive
+C038,room_not_synced,true_positive

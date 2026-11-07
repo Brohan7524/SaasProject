@@ -54,3 +54,18 @@ Log of choices made where SPEC.md was ambiguous.
   1. *Trend window.* The first draft compared Oct-Dec with Jul-Sep. That diluted a decline concentrated at year end, and the two clients with the sharpest recent drop scored as healthy as everyone else. It now compares the last 60 days with the previous 60. Across all 40 clients this ratio is around 0.8 for normal clients (the Diwali/Christmas dip) and 0.44-0.48 for the two sharpest decliners.
   2. *Red band.* The first draft used Red < 45, but no client scored below 48 (the peer-percentile components pull scores to the middle), so Red was empty and useless. Bands are now Green >= 65, Amber 55 to < 65, Red < 55 (the bottom quartile is ~55). The bands are a relative ranking, not an absolute judgement.
 - **Limitation:** a coarse health band does not tell you the cause. Use the `weakest_component` column and the gap report (P6) for that.
+
+## P6: gap detector
+- **Inputs:** the detector reads the raw CSVs (config, offices, employees, events, tickets) with pandas, not the SQLite database. It never reads `ground_truth.json` inside a rule. The evaluation function at the bottom is the only reader, and it runs after `gap_report.csv` is written.
+- **Thresholds were fixed before the first run and not changed since.** Each rule needs a config signal AND a usage signal, so a clean config with normal usage is never flagged, and a config oddity alone is not enough:
+  1. QR: no scanners at >= 50% of offices AND later usage < 0.5x month-1 usage.
+  2. Rooms: calendar not synced at >= 50% of offices AND no-show rate in those offices >= 2x the portfolio median (the median is computed from data).
+  3. Policy: cap <= 2 days/week AND desk view-to-book conversion < 0.5x the portfolio median.
+  4. Rollout: a feature is on in <= 25% of offices, for clients with >= 3 offices (config only).
+  5. Parking: zero spots at >= 50% of the offices where parking is on (config only; the view-to-book rate is shown as evidence).
+  6. Churn: usage in the last 30 days vs the 30 days ending 90 days earlier, divided by the portfolio median ratio (removes the shared holiday dip), is < 0.5 AND tickets in the last 90 days >= 1.25x the previous 90 days. A client needs >= 200 baseline events to be judged.
+- **Unit of evaluation:** a (client, gap type) pair. Employees affected comes from the rule, not from ground truth.
+- **Result of the single run:** 10 detected, 10 planted, 10 true positives, 0 false positives, 0 misses.
+- **Why 100% is weak evidence, and what to say about it in an interview:** I wrote both the data generator and the rules, and the planted effects are large (e.g. view-to-book 0.15 vs 0.75). The decoys (a 1-in-3 unsynced office, a 50% phased rollout, a cap of 2 with normal booking, a ~25% decline) did test the thresholds, and none were flagged. Real data would be noisier. The thin margins in this run are:
+  - Rollout: C031 sits exactly on the 25% limit (1 of 4 offices). A stricter limit of 20% would miss it.
+  - Churn: the two flagged clients have seasonally adjusted drops of 56% and 60% against a 50% threshold. The decoy "mild decline" is not flagged.
