@@ -88,3 +88,8 @@ Log of choices made where SPEC.md was ambiguous.
 - **"3,855 employees directly affected" is the sum over gaps; "4,362 employees" is everyone at the 10 flagged clients.** Both are stated so neither is mistaken for the other.
 - **No impact estimates:** the brief proposes one product change per blocker and says each is a hypothesis. It gives no uplift numbers because nothing in this data can support them.
 - **Client guide:** benchmarks come from the synthetic portfolio (Desk Booking clients: average 31% adoption, 75% median view-to-book, 9.9% cancelled, 5.5% no-show, 69% of bookings made Tue-Thu). The guide says this at the top. Practices and message templates are labelled as recommendations. Thresholds such as "fewer than about 4 in 10" are half the median conversion, the same line used by the detector.
+
+## P10: README
+- Every number in the README was copied from `outputs/*.csv` or the script output after a full from-scratch re-run (generate, load, queries, detector, export). A re-run reproduced all tracked files exactly; only the .xlsx binary changed (internal timestamp).
+- Python 3.10 was used (the spec said 3.11); nothing relies on 3.11-only features.
+- The README states the limits of the 100% precision/recall result instead of presenting it as proof.
