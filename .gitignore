@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+.DS_Store
+# Large generated database (regenerate with load_db.py)
+data/workplace.db
+data/raw/events.csv
