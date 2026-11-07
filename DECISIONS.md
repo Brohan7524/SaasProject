@@ -21,3 +21,10 @@ Log of choices made where SPEC.md was ambiguous.
 - Normal clients get no config problems at all (all scanners present, all calendars synced). Only planted gaps and decoys deviate. This is a simplification of real life.
 - Ticket categories: how_to, bug, access, feature_request, integration, configuration, hardware, policy_restriction. Gap clients get ~25-45 extra tickets skewed to the category that matches the gap.
 - Event volume was tuned (feature `rate` values) until the total was ~1M: 996,776 rows with seed 42.
+
+## P3: SQLite load
+- Tables are created with explicit DDL (PKs, foreign keys, CHECK constraints), then filled from the CSVs. Indexes are built after loading because that is faster.
+- Dates and timestamps are stored as ISO text, since SQLite has no date type. ISO text sorts correctly and works with `date()` and `strftime()`.
+- Indexes: `events(client_id, feature, ts)` as the spec asks, plus `events(employee_id, feature, ts)` for the cohort-retention query, and small indexes on the join keys.
+- Booleans are 0/1 integers with CHECK constraints. Empty `enabled_date`, `policy_max_days_per_week` and `resolved_at` become NULL.
+- `data/workplace.db` is 159 MB, so it stays gitignored. `python load_db.py` rebuilds it in seconds.
